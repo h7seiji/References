@@ -1,5 +1,8 @@
 # References
 
+## CI/CD
+https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
+
 ## Testing
 https://tyrrrz.me/blog/unit-testing-is-overrated
 
