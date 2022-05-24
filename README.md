@@ -7,7 +7,7 @@ https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
 https://tyrrrz.me/blog/unit-testing-is-overrated
 
 ## Python
-https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+https://cjolowicz.github.io/posts/hypermodern-python-01-setup/  
 https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/
 
 ## Development
