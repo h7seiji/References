@@ -9,6 +9,11 @@ https://tyrrrz.me/blog/unit-testing-is-overrated
 ## Python
 - https://cjolowicz.github.io/posts/hypermodern-python-01-setup/  
 - https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/
+- List comprehension https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+- Walrus Operator https://betterprogramming.pub/should-you-be-using-pythons-walrus-operator-yes-and-here-s-why-36297be16907
+- `asyncio`
+- `httpx` over `requests`
+- subprocess
 ### SQLAlchemy
 - https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
 
