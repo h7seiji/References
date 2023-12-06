@@ -19,9 +19,9 @@ https://tyrrrz.me/blog/unit-testing-is-overrated
 - List comprehension https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
 - Walrus Operator https://betterprogramming.pub/should-you-be-using-pythons-walrus-operator-yes-and-here-s-why-36297be16907
 - `asyncio` https://superfastpython.com/python-asyncio/
-- `httpx` over `requests`
-- subprocess
-- defaultdict
+- `httpx` over `requests` https://www.datasciencebyexample.com/2023/04/06/httpx-vs-requsts-in-pyton/
+  - mainly due to asyncio support
+- subprocess https://www.datacamp.com/tutorial/python-subprocess
 - Data Structures https://www.deriveit.org/coding/cheat-sheets/87
 - BitwiseOperators https://wiki.python.org/moin/BitwiseOperators
 - Typing
