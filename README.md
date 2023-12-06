@@ -2,6 +2,8 @@
 
 ## Career
 
+https://80000hours.org/career-guide/
+
 ## CI/CD
 
 https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
