@@ -41,9 +41,9 @@ https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Criti
 
 ## Unreal Automation
 
-https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/
-https://qiita.com/donbutsu17/items/69988ad7db88f74ea084
-https://edwardbeazer.com/functional-tests-with-gauntlet/
+- https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/
+- https://qiita.com/donbutsu17/items/69988ad7db88f74ea084
+- https://edwardbeazer.com/functional-tests-with-gauntlet/
 
 ## Misc
 
