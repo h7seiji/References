@@ -39,6 +39,12 @@ https://cloud.google.com/kubernetes-engine/kubernetes-comic/
 
 https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code
 
+## Unreal Automation
+
+https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/
+https://qiita.com/donbutsu17/items/69988ad7db88f74ea084
+https://edwardbeazer.com/functional-tests-with-gauntlet/
+
 ## Misc
 
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
