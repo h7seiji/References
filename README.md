@@ -4,6 +4,16 @@
 
 https://80000hours.org/career-guide/
 
+## SOLID
+
+https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+
+- S — Single Responsiblity Principle
+- O — Open-Closed Principle
+- L — Liskov Substitution Principle
+- I — Interface Segregation Principle
+- D — Dependency Inversion Principle
+
 ## CI/CD
 
 https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
@@ -47,5 +57,6 @@ https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Criti
 
 ## Misc
 
+- The twelve-factor app https://12factor.net/
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
 - The Absolute Minimum Every Software Developer Must Know About Unicode https://tonsky.me/blog/unicode/

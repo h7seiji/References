@@ -1,8 +1,10 @@
 # System Design
 
-https://github.com/donnemartin/system-design-primer
-https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
-https://www.hiredintech.com/system-design/
+- https://github.com/donnemartin/system-design-primer
+- https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
+- https://www.hiredintech.com/system-design/
+
+- Cheatsheet https://gist.github.com/vasanthk/485d1c25737e8e72759f
 
 ## Recipe
 
