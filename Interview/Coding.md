@@ -80,3 +80,28 @@ https://www.techinterviewhandbook.org/coding-interview-prep/
 
 1. Changing data in-place/overwriting input data
 2. Change a data structure
+
+## Coding Patterns
+
+https://levelup.gitconnected.com/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb
+
+- Sliding Window: When we need to handle the input data in a specific window size
+- Islands (Matrix Traversal): Describes all the efficient ways of traversing a matrix (or 2D array)
+- Two Pointers: Uses two pointers to iterate input data. Generally, both pointers move in the opposite direction at a constant interval
+- Fast & Slow Pointers: Uses two pointers that traverse the input data at different speeds
+- Merge Intervals: Used to deal with overlapping intervals
+- Cyclic Sort: Used to solve array problems where the input data lies within a fixed range
+- In-place Reversal of a LinkedList: Describes an efficient way to reverse the links between a set of nodes of a LinkedList. Often, the constraint is that we need to do this in-place
+- Tree Breadth-First Search: Used to solve problems involving traversing trees or graphs in a breadth-first search manner
+- Tree Depth First Search: Used to solve problems involving traversing trees or graphs in a depth-first search manner
+- Two Heaps: We are given a set of elements that can be divided into two parts. We are interested in knowing the smallest element in one part and the biggest element in the other part. This technique uses a Min-Heap to find the smallest element and a Max-Heap to find the biggest element
+- Subsets: Used when the problem asks to deal with permutations or combinations of a set of elements
+- Modified Binary Search: Used to search a sorted set of elements efficiently
+- Bitwise XOR: Uses the XOR operator to manipulate bits to solve problems
+- Top ‘K’ Elements: Used to find top/smallest/frequently occurring 'K' elements in a set
+- K-way Merge: Helps us solve problems that involve a list of sorted arrays
+- Topological Sort: Used to find a linear ordering of elements that have dependencies on each other
+- 0/1 Knapsack: Used to solve optimization problems. Use this technique to select elements that give maximum profit from a given set with a limitation on capacity and that each element can only be picked once
+- Fibonacci Numbers: Used to solve problems that follow the Fibonacci numbers sequence
+- Palindromic Subsequence: Used to solve optimization problems related to palindromic sequences or strings
+- Longest Common Substring: Used to find the optimal part of a string/sequence or set of strings/sequences

@@ -36,3 +36,11 @@
 - Stack: LIFO / FILO List
 
 - Array / List
+
+  - Access: O(1)
+  - Search: O(n)
+  - Search (sorted array): O(log(n))
+  - Insert: O(n)
+  - Insert (at the end): O(1)
+  - Remove: O(n)
+  - Remove (at the end): O(1)
