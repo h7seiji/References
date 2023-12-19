@@ -41,6 +41,10 @@ https://tyrrrz.me/blog/unit-testing-is-overrated
 
 - https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
 
+## C++
+
+- https://cplusplus.com/doc/tutorial/
+
 ## Kubernetes
 
 https://cloud.google.com/kubernetes-engine/kubernetes-comic/
