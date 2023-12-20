@@ -1,6 +1,7 @@
 # Behavioral Interview Tips
 
-https://www.techinterviewhandbook.org/behavioral-interview/
+- https://www.techinterviewhandbook.org/behavioral-interview/
+- https://www.youtube.com/@DanCroitor/videos
 
 1. Learn the STAR answer format
 2. Prepare your answers to commonly asked questions

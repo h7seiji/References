@@ -64,3 +64,5 @@ https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Criti
 - The twelve-factor app https://12factor.net/
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
 - The Absolute Minimum Every Software Developer Must Know About Unicode https://tonsky.me/blog/unicode/
+- Latency Numbers Every Programmer Should Know https://gist.github.com/jboner/2841832
+- 7 AI Tools Every Software Developer Needs to Know https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4
