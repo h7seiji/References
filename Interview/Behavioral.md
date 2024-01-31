@@ -19,3 +19,22 @@
 - Empathy - How well are you able to see things from the perspective of others and understand your motivations?
 - Growth - How well do you understand your strengths, weaknesses and growth areas? Are you making a continued effort to grow?
 - Communication - Are you able to clearly communicate your stories during the interview?
+
+## Amazon Leadership Principles
+
+- Customer Obsession
+- Ownership
+- Invent and Simplify
+- Are Right, A Lot
+- Learn and Be Curious
+- Hire and Develop the Best
+- Insist on the Highest Standards
+- Think Big
+- Bias for Action
+- Frugality
+- Earn Trust
+- Dive Deep
+- Have Backbone; Disagree and Commit
+- Deliver Results
+- Strive to be Earth’s Best Employer
+- Success and Scale Bring Broad Responsibility
