@@ -7,14 +7,11 @@ https://80000hours.org/career-guide/
 ## CI/CD
 
 - https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
+- https://www.linkedin.com/pulse/20-devops-interview-questions-every-engineer-should-know-alex-muradov-wtome/
 
 ## Testing
 
 - https://tyrrrz.me/blog/unit-testing-is-overrated
-
-### SQLAlchemy
-
-- https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
 
 ## C++
 
@@ -53,6 +50,10 @@ https://80000hours.org/career-guide/
 ## Microservices
 
 - https://medium.com/capital-one-tech/10-microservices-design-patterns-for-better-architecture-befa810ca44e
+
+## System Design Real Life Examples
+
+- Pokemon GO https://pokemongohub.net/post/article/pokemon-go-backend-stack-deep-dive
 
 ## VSCode
 

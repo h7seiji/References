@@ -91,6 +91,17 @@ Run and control other programs
 - https://realpython.com/python312-typing/
 - https://medium.com/@ramanbazhanau/advanced-type-annotations-in-python-part-1-3c9a592e394
 
+## Bytecode
+
+- `dis` library
+- https://opensource.com/article/18/4/introduction-python-bytecode
+- https://medium.com/@noransaber685/demystifying-python-bytecode-a-guide-to-understanding-and-analyzing-code-execution-6a163cb83bd1
+- https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79
+
+## SQLAlchemy
+
+- https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
+
 ## Libraries
 
 - factory_boy: Create fake data https://github.com/FactoryBoy/factory_boy
