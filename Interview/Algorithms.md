@@ -1,3 +1,7 @@
+# Algorithms Interview Tips
+
+- https://www.youtube.com/user/mycodeschool
+
 ## Algorithms
 
 - Recursion
