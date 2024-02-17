@@ -109,3 +109,4 @@ Run and control other programs
 - hug: Simple API framework https://github.com/hugapi/hug
 - pyinstrument: Performance profiler https://github.com/joerick/pyinstrument
 - gevent: Coroutine-based networking library https://www.gevent.org/
+- Ruff: Linter and formatter https://github.com/astral-sh/ruff
