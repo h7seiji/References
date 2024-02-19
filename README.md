@@ -100,3 +100,16 @@ https://80000hours.org/career-guide/
 - https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5
 - EC2 vs Fargate vs Lambda https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6
 - Diagram as Code https://github.com/mingrammer/diagrams
+
+## Backlog
+
+- https://blog.bitsrc.io/best-practices-for-api-security-6d8242587caf
+- https://medium.com/@mbarkin.narin/mastering-software-system-design-advanced-problem-solving-with-layered-architectures-9647ad2b7314
+- https://medium.com/@aserdargun/advanced-oop-in-python-a5f6130da291
+- https://towardsdatascience.com/advanced-python-dot-operator-809d0eb5d841
+- https://towardsdatascience.com/advanced-python-metaclasses-e32d46e0ebe3
+- https://towardsdatascience.com/advanced-python-functions-3be6810f92d1
+- https://newsletter.systemdesign.one/p/aws-scale
+- https://newsletter.systemdesign.one/p/actor-model
+- https://newsletter.systemdesign.one/p/prime-video-microservices
+- https://newsletter.systemdesign.one/p/scalable-software-architecture
