@@ -63,8 +63,6 @@ print(my_function(5))
 
 ## Classes
 
-### **init**()
-
 ### @staticmethod
 
 The @staticmethod decorator allows you to define static methods within a class. These methods don’t have access to the instance or class itself but can be called without instantiating an object.
@@ -90,6 +88,14 @@ class MathUtils:
 
 print(MathUtils.cube(3))  # Output: 27
 ```
+
+### Metaclasses
+
+#### `__init__()`
+
+#### `__new__()`
+
+#### `__call__()`
 
 ## Asyncio
 
