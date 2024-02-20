@@ -1,7 +1,7 @@
 # Python
 
 - Cheat Sheet https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8
-- https://cjolowicz.github.io/posts/hypermodern-python-01-setup/
+- https://github.com/cjolowicz/cookiecutter-hypermodern-python
 - https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/
 - https://blog.stackademic.com/20-python-concepts-i-wish-i-knew-way-earlier-40ed5674cd52
   - List Comprehension
