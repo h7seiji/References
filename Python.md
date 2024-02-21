@@ -135,6 +135,10 @@ Run and control other programs
 
 - https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
 
+## FastAPI
+
+- Mongo + FastAPI: https://www.mongodb.com/languages/python/pymongo-tutorial
+
 ## Libraries
 
 - factory_boy: Create fake data https://github.com/FactoryBoy/factory_boy
