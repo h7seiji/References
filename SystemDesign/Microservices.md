@@ -63,6 +63,44 @@ failed request intents.
 - Decomposition Design Pattern – This design pattern enables you to
 decompose an application based on business capability or on based on the subdomains.
 
+## Delivering software
+
+- Build, release, run – Engineers adopt a devops culture that allows them to
+optimize all three stages.
+- Config – Engineers build better configuration management for software due to
+their involvement with how that software is used by the customer.
+- Dev/prod parity – Software treated as a product can be iteratively developed in
+smaller pieces that take less time to complete and deploy than long-running
+projects, which enables development and production to be closer in parity.
+- Automated provisioning – Operations should be automated rather than
+manual. This increases velocity as well as integrates engineering and operations.
+- Self-service – Engineers should be able to configure and provision their own
+dependencies. This is enabled by containerized environments that allow
+engineers to build their own container that has anything they require.
+- Continuous Integration – Engineers should check in code frequently so that
+incremental improvements are available for review and testing as quickly as
+possible.
+- Continuous Build and Delivery – The process of building code that’s been
+checked in and delivering it to production should be automated so that engineers
+can release code without manual intervention.
+
+## Communication between services
+
+- Request/Response – One service explicitly invokes another service by making a
+request to either store data in it or retrieve data from it.
+- Publish/Subscribe – Event-based architecture where one service implicitly
+invokes another service that was watching for an event.
+
+Key Factors:
+- Port Binding – Services bind to a port to watch for incoming requests and send
+requests to the port of another service. The pipe in between is just a dumb
+network protocol such as HTTP.
+- Backing services – Dumb pipes allow a background microservice to be
+attached to another microservice in the same way that you attach a database.
+- Concurrency – A properly designed communication pipeline between
+microservices allows multiple microservices to work concurrently. For example,
+several observer microservices may respond and begin work in parallel in
+response to a single event produced by another microservice.
 
 ## References
 
