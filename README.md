@@ -42,10 +42,6 @@ https://80000hours.org/career-guide/
 
 - https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono
 
-## Microservices
-
-- https://medium.com/capital-one-tech/10-microservices-design-patterns-for-better-architecture-befa810ca44e
-
 ## System Design Real Life Examples
 
 - StackOverflow (Monolith) https://blog.stackademic.com/stackoverflow-monolithic-architecture-379b16a9d262
