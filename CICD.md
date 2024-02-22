@@ -1,5 +1,8 @@
 # CI/CD
 
+- https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
+- https://www.linkedin.com/pulse/20-devops-interview-questions-every-engineer-should-know-alex-muradov-wtome/
+
 ## Do:
 
 - Treat your infrastructure as code:
