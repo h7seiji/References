@@ -1,5 +1,8 @@
 # Twelve-factor app
 
+- https://12factor.net/
+- https://medium.com/@tech_18484/introduction-701b7a8f4730
+
 1. Codebase - One codebase tracked in revision control, many deploys
 2. Dependencies - Explicitly declare and isolate dependencies
 3. Config - Store configurations in the environment
