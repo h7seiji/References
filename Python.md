@@ -4,13 +4,7 @@
 - https://github.com/cjolowicz/cookiecutter-hypermodern-python
 - https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/
 - https://blog.stackademic.com/20-python-concepts-i-wish-i-knew-way-earlier-40ed5674cd52
-  - List Comprehension
-  - Lambda Functions
   - Map, Filter, Reduce
-  - Decorators
-  - Generators
-  - f-Strings
-  - \*args and \*\*kwargs
   - Type Hinting
   - Context Managers
   - Walrus Operator
@@ -24,16 +18,15 @@
   - The `else` Clause in Loops
   - Deepcopy vs. Shallow Copy
   - Python's Underscore (\_) Uses
-- List comprehension https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
 - Walrus Operator https://betterprogramming.pub/should-you-be-using-pythons-walrus-operator-yes-and-here-s-why-36297be16907
-- `asyncio` https://github.com/timofurrer/awesome-asyncio
-- `httpx` over `requests` https://www.datasciencebyexample.com/2023/04/06/httpx-vs-requsts-in-pyton/
-  - mainly due to asyncio support
-- subprocess https://www.datacamp.com/tutorial/python-subprocess
 - Data Structures https://www.deriveit.org/coding/cheat-sheets/87
 - BitwiseOperators https://wiki.python.org/moin/BitwiseOperators
 - Exception Handling https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20
 - Cheatsheet https://dranolia.medium.com/python-cheatsheet-51b552b56a81
+
+## List Comprehension
+
+- https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
 
 ## Generators
 
@@ -57,6 +50,8 @@
 
 - Functions in Python are first-class citizens. That means you can work with functions as you would with any other variable. You can pass them as arguments to other functions, return them from functions, and even store them in variables.
 - Functions are objects. Objects are instances of classes and contain methods and attributes.
+
+### Lambda functions
 
 ### Decorators
 
@@ -117,6 +112,8 @@ print(MathUtils.cube(3))  # Output: 27
 
 ## Asyncio
 
+- https://github.com/timofurrer/awesome-asyncio
+
 ### Coroutine
 
 ### Event Loop
@@ -136,6 +133,7 @@ Divide tasks written in python over multiple processes to help improve performan
 ## Subprocess
 
 Run and control other programs
+- https://www.datacamp.com/tutorial/python-subprocess
 
 ## Typing
 
