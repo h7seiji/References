@@ -89,7 +89,6 @@ https://80000hours.org/career-guide/
 
 ## Misc
 
-- The twelve-factor app https://12factor.net/ https://medium.com/@tech_18484/introduction-701b7a8f4730
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
 - Google Dorking https://medium.com/infosec/exploring-google-hacking-techniques-using-google-dork-6df5d79796cf
 - The Absolute Minimum Every Software Developer Must Know About Unicode https://tonsky.me/blog/unicode/
