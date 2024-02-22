@@ -35,6 +35,24 @@
 - Exception Handling https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20
 - Cheatsheet https://dranolia.medium.com/python-cheatsheet-51b552b56a81
 
+## Generators
+
+### When to Use Generators:
+
+- Large Datasets: Process without consuming all memory.
+- Streaming Data: Handle real-time data streams effectively.
+- Expensive Computations: Compute values lazily, only when needed.
+- Infinite Sequences: Produce values indefinitely.
+- Pipeline Processing: Reduce memory in data processing chains.
+
+### When Generators Might Not Be Ideal:
+
+- Random Access: Generators are linear, not for indexed access.
+- Multiple Passes: Generators exhaust after one use; not for re-traversing.
+- Short Data Sequences: Overkill for small, in-memory datasets.
+- Complex State Management: This can lead to confusing code.
+- Performance-Critical: Might introduce minor speed overheads.
+
 ## Functions
 
 - Functions in Python are first-class citizens. That means you can work with functions as you would with any other variable. You can pass them as arguments to other functions, return them from functions, and even store them in variables.
@@ -130,10 +148,6 @@ Run and control other programs
 - https://opensource.com/article/18/4/introduction-python-bytecode
 - https://medium.com/@noransaber685/demystifying-python-bytecode-a-guide-to-understanding-and-analyzing-code-execution-6a163cb83bd1
 - https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79
-
-## SQLAlchemy
-
-- https://rogulski.it/blog/sqlalchemy-14-async-orm-with-fastapi/
 
 ## FastAPI
 
