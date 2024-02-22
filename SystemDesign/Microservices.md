@@ -102,6 +102,79 @@ microservices allows multiple microservices to work concurrently. For example,
 several observer microservices may respond and begin work in parallel in
 response to a single event produced by another microservice.
 
+## Data management design patterns
+
+- Controller – Helps direct the request to the appropriate data store using the
+appropriate mechanism.
+- Proxy – Helps provide a surrogate or placeholder for another object to control
+access to it.
+- Visitor – Helps represent an operation to be performed on the elements of an
+object structure.
+- Interpreter – Helps map a service to data store semantics.
+- Observer – Helps define a one-to-many dependency between objects so that
+when one object changes state, all of its dependents are notified and updated
+automatically.
+- Decorator – Helps attach additional responsibilities to an object dynamically.
+Decorators provide a flexible alternative to sub-classing for extending
+functionality.
+- Memento – Helps capture and externalize an object's internal state so that the
+object can be returned to this state later.
+
+## Infrastructure automation
+
+- Codebase (one codebase tracked in revision control, many deploys) – Because
+the infrastructure can be described as code, treat all code similarly and keep it in
+the service repository.
+- Config (store configurations in the environment) – The environment should hold
+and share its own specificities.
+- Build, release, run (strictly separate build and run stages) – One environment
+for each purpose.
+- Disposability (maximize robustness with fast startup and graceful shutdown) –
+This factor transcends the process layer and bleeds into such downstream layers
+as containers, virtual machines, and virtual private cloud.
+- Dev/prod parity – Keep development, staging, and production as similar as
+possible.
+
+## Designing for failure
+
+- Disposability (maximize robustness with fast startup and graceful shutdown) –
+Produce lean container images and strive for processes that can start and stop in
+a matter of seconds.
+- Logs (treat logs as event streams) – If part of a system fails, troubleshooting is
+necessary. Ensure that material for forensics exists.
+- Dev/prod parity – Keep development, staging, and production as similar as
+possible.
+
+## Evolutionary design
+
+- Codebase (one codebase tracked in revision control, many deploys) – Helps
+evolve features faster since new feedback can be quickly incorporated.
+- Dependencies (explicitly declare and isolate dependencies) – Enables quick
+iterations of the design since features are tightly coupled with externalities
+- Configuration (store configurations in the environment) – Everything that is
+likely to vary between deploys (staging, production, developer environments,
+etc.). Config varies substantially across deploys, code does not. With
+configurations stored outside code, the design can evolve irrespective of the
+environment.
+- Build, release, run (strictly separate build and run stages) – Help roll out new
+features using various deployment techniques. Each release has a specific ID
+and can be used to gain design efficiency and user feedback.
+
+Design patterns:
+- Sidecar extends and enhances the main service.
+- Ambassador creates helper services that send network requests on behalf of a
+- nsumer service or application.
+- Chain provides a defined order of starting and stopping containers.
+- Proxy provides a surrogate or placeholder for another object to control access to
+it.
+- Strategy defines a family of algorithms, encapsulates each one, and makes
+them interchangeable. Strategy lets the algorithm vary independently from the
+clients that use it.
+- Iterator provides a way to access the elements of an aggregate object
+sequentially without exposing its underlying representation.
+- Service Mesh is a dedicated infrastructure layer for facilitating service-to-service
+communications between microservices, using a proxy.
+
 ## References
 
 - https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf
