@@ -1,5 +1,15 @@
 # Serverless
 
+## Design Principles
+
+- Speedy, simple, singular
+- Think concurrent requests, not total requests
+- Share nothing
+- Assume no hardware affinity
+- Orchestrate your application with state machines, not functions
+- Use events to trigger transactions
+- Design for failures and duplicates
+
 ## Compute Layer
 
 The compute layer of your workload manages requests from external systems, controlling access and verifying that requests are appropriately authorized.
@@ -65,3 +75,13 @@ The deployment layer defines how your workload changes are promoted through a re
 - Each Lambda function version has a unique Amazon Resource Name (ARN) and new version changes are auditable as they are recorded in AWS CloudTrail.
 - As a best practice in production, customers should enable versioning to use a reliable architecture.
 - To simplify deployment operations and reduce the risk of error, Lambda function aliases activate different variations of your Lambda function in your development workflow, such as development, beta, and production.
+
+## Conclusion
+
+For reliability, regular testing of failure paths provides you with a better chance of catching errors before they reach production.
+
+For performance, starting backward from customer expectations will allow you to design for optimal experience. There are a number of AWS tools to help optimize performance.
+
+For cost optimization, you can reduce waste within your serverless application by right-sizing resources to support traffic demands, and improve value by optimizing your application. For operations, your architecture should strive toward automation in responding to events.
+
+Finally, a secure application will protect your organization’s sensitive information assets and meet any compliance requirements at every layer.
