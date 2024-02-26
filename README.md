@@ -103,3 +103,4 @@ https://80000hours.org/career-guide/
 - https://newsletter.systemdesign.one/p/actor-model
 - https://newsletter.systemdesign.one/p/prime-video-microservices
 - https://newsletter.systemdesign.one/p/scalable-software-architecture
+- https://www.youtube.com/watch?v=RrKRN9zRBWs&t=4s
