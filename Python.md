@@ -24,6 +24,14 @@
 - Exception Handling https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20
 - Cheatsheet https://dranolia.medium.com/python-cheatsheet-51b552b56a81
 
+## venv
+
+```
+python -m venv env-name
+
+.\env-name\Scripts\Activate.ps1
+```
+
 ## List Comprehension
 
 - https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
