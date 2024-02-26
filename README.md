@@ -55,7 +55,12 @@ https://80000hours.org/career-guide/
 
 ### Extensions
 
-- Sticky Scroll
+#### Essentials
+
+- Docker
+- Python
+
+#### Optional
 
 ## Code Review
 
