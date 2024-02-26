@@ -65,6 +65,8 @@ https://80000hours.org/career-guide/
 
 ### `settings.json`
 
+`>Preferences: Open User Settings (JSON)`
+
 ```
 {
   "[python]": {
