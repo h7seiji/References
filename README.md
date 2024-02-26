@@ -59,8 +59,24 @@ https://80000hours.org/career-guide/
 
 - Docker
 - Python
+  - Ruff
 
 #### Optional
+
+### `settings.json`
+
+```
+{
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
+```
 
 ## Code Review
 
