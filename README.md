@@ -60,6 +60,7 @@ https://80000hours.org/career-guide/
 - Docker
 - Python
   - Ruff
+- GitLens
 
 #### Optional
 
