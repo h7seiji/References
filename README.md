@@ -4,11 +4,6 @@
 
 https://80000hours.org/career-guide/
 
-## Testing
-
-- https://tyrrrz.me/blog/unit-testing-is-overrated
-- https://blog.xendit.engineer/stop-testing-your-code-06c46dbb6554
-
 ## C++
 
 - https://cplusplus.com/doc/tutorial/
@@ -42,11 +37,6 @@ https://80000hours.org/career-guide/
 ## Scalability
 
 - https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono
-
-## System Design Real Life Examples
-
-- StackOverflow (Monolith) https://blog.stackademic.com/stackoverflow-monolithic-architecture-379b16a9d262
-- Pokemon GO https://pokemongohub.net/post/article/pokemon-go-backend-stack-deep-dive
 
 ## VSCode
 
@@ -92,6 +82,9 @@ https://80000hours.org/career-guide/
 - Architectural integrity: Whether the code is scalable, sustainable, and has a solid architectural design?
 
 ## Testing
+
+- https://tyrrrz.me/blog/unit-testing-is-overrated
+- https://blog.xendit.engineer/stop-testing-your-code-06c46dbb6554
 
 - Smoke Testing: This is done after API development is complete. Simply validate if the APIs are working and nothing breaks.
 - Functional Testing: This creates a test plan based on the functional requirements and compares the results with the expected results.
