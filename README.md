@@ -7,6 +7,7 @@ https://80000hours.org/career-guide/
 ## Testing
 
 - https://tyrrrz.me/blog/unit-testing-is-overrated
+- https://blog.xendit.engineer/stop-testing-your-code-06c46dbb6554
 
 ## C++
 
