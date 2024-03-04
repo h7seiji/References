@@ -103,11 +103,12 @@ https://80000hours.org/career-guide/
 - The Absolute Minimum Every Software Developer Must Know About Unicode https://tonsky.me/blog/unicode/
 - Latency Numbers Every Programmer Should Know https://gist.github.com/jboner/2841832
 - SDLC https://aws.amazon.com/what-is/sdlc/
+- EC2 vs Fargate vs Lambda https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6
+- Diagram as Code https://github.com/mingrammer/diagrams
 - 7 AI Tools Every Software Developer Needs to Know https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4
 - https://alex-omeyer.medium.com/9-ai-tools-every-software-developer-needs-to-try-1a3f888b52e
 - https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5
-- EC2 vs Fargate vs Lambda https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6
-- Diagram as Code https://github.com/mingrammer/diagrams
+- https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16
 
 ## Backlog
 
