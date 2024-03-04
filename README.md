@@ -33,6 +33,7 @@ https://80000hours.org/career-guide/
 ## DDD
 
 - https://roluquec.medium.com/building-better-software-the-role-of-domain-storytelling-in-ddd-95091a93d89b
+- https://code.likeagirl.io/the-ddd-way-towards-screaming-design-part-i-strategic-patterns-1079963d996b
 
 ## Scalability
 
