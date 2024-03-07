@@ -160,6 +160,29 @@ Run and control other programs
 
 - Mongo + FastAPI: https://www.mongodb.com/languages/python/pymongo-tutorial
 
+## Pytest
+
+### Fixtures
+```
+# conftest.py
+import pytest
+
+@pytest.fixture
+def db_connection():
+  yield
+```
+```
+# test_example.py
+def test_db_connection(db_connection):
+  assert True
+```
+
+### Monkeypatching
+```
+def test_mytest(monkeypatch):
+  monkeypatch.setattr(app_onboarding, "username_moderation", mock_moderation)
+```
+
 ## Libraries
 
 - HTTPX: https://github.com/encode/httpx
