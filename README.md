@@ -97,6 +97,12 @@ https://80000hours.org/career-guide/
 - UI Testing: This tests the UI interactions with the APIs to make sure the data can be displayed properly.
 - Fuzz Testing: This injects invalid or unexpected input data into the API and tries to crash the API. In this way, it identifies the API vulnerabilities.
 
+## Technical Debt
+
+- How To Deal With Technical Debt https://medium.com/@techworldwithmilan/how-to-deal-with-technical-debt-b0065c1a794d
+- Conway's Law https://martinfowler.com/bliki/ConwaysLaw.html
+- Technical Debt Quadrant https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+
 ## Misc
 
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
