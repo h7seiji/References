@@ -34,5 +34,12 @@
 - This flow ensures that a malicious third-party application cannot exchange an authorization code for an access token, since the malicious application does not have the code verifier.
 - Intercepting the code challenge is also useless because SHA256 is a one-way hashing algorithm and cannot be decrypted.
 
-
 ## CSRF (Cross-site request forgery)
+
+## Hashing Passwords
+
+When hashing passwords, salts are used to add an extra layer of security. Here’s a basic process on how to use salts when hashing:
+1. Generate a Salt: Use a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) to produce a salt2. The salt should be unique for each user password.
+2. Combine Salt and Password: Add the salt to the beginning or the end of the password3.
+3. Hash the Combination: Hash the combination of the salt and the password using a secure hash function, such as Scrypt, Argon2 or SHA-2562.
+4. Store the Salt and Hash: Save both the salt and the hash in your user database2. When the user logs in again, you will need to retrieve the salt, append it to the provided password, hash the result, and compare it to the stored hash
