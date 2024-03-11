@@ -69,7 +69,9 @@ https://80000hours.org/career-guide/
       "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "charliermarsh.ruff"
-  }
+  },
+  "python.analysis.typeCheckingMode": "basic",
+  "explorer.confirmDragAndDrop": false
 }
 ```
 
