@@ -53,6 +53,7 @@ https://80000hours.org/career-guide/
 - Python
   - Ruff
 - GitLens
+- Code Spell Checker
 
 #### Optional
 
