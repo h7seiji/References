@@ -162,6 +162,18 @@ Run and control other programs
 
 ## Pytest
 
+Import modules from current directory
+
+```
+python -m pytest
+```
+
+Run only one test
+
+```
+pytest test_file.py::test_function
+```
+
 ### Fixtures
 ```
 # conftest.py
