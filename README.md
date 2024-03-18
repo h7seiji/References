@@ -106,6 +106,26 @@ https://80000hours.org/career-guide/
 - Conway's Law https://martinfowler.com/bliki/ConwaysLaw.html
 - Technical Debt Quadrant https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
 
+## Management
+
+### Technical Lead vs Engineering Manager
+
+https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66
+
+| Area           | Tech Lead | Eng Manager     |
+|----------------|-----------|-----------------|
+| Architecture   | Leads     | Weighs In       |
+| Execution      | Leads     | Coaches         |
+| On-Call        | Leads     | Builds Policy   |
+| Bug Triage     | Leads     | Supports        |
+| Team Process   | Supports  | Leads           |
+| Team Strategy  | Supports  | Leads (with PM) |
+| Prioritization | Supports  | Leads (with PM) |
+| Stakeholders   | Supports  | Leads           |
+| Career/Growth  | Supports  | Leads           |
+| Hiring         | Supports  | Leads           |
+
+
 ## Misc
 
 - How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
