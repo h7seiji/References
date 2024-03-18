@@ -144,6 +144,17 @@ Divide tasks written in python over multiple processes to help improve performan
 Run and control other programs
 - https://www.datacamp.com/tutorial/python-subprocess
 
+## Frozenset
+Use set as a dict key
+```
+set_ex = frozenset({1, 2, 3})
+dict_obj = {set_ex: "This is a Set"}
+
+print(dict_obj[set_ex])
+
+## Output - This is a Set
+```
+
 ## Typing
 
 - https://realpython.com/python312-typing/
