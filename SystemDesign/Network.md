@@ -1,7 +1,0 @@
-# Network
-
-## ICMP
-
-## SSH
-
-## RDP
