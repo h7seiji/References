@@ -2,42 +2,42 @@
 
 ## Career
 
-https://80000hours.org/career-guide/
+<https://80000hours.org/career-guide/>
 
 ## C++
 
-- https://cplusplus.com/doc/tutorial/
+- <https://cplusplus.com/doc/tutorial/>
 
 ## Kubernetes
 
-- https://cloud.google.com/kubernetes-engine/kubernetes-comic/
+- <https://cloud.google.com/kubernetes-engine/kubernetes-comic/>
 
 ## Kafka/RabbitMQ
 
-- https://blog.devgenius.io/rabbitmq-vs-kafka-a-comprehensive-comparison-for-message-brokers-10ed6ac07332
+- <https://blog.devgenius.io/rabbitmq-vs-kafka-a-comprehensive-comparison-for-message-brokers-10ed6ac07332>
 
 ## Elasticsearch
 
-- When to use Elasticsearch https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff
+- When to use Elasticsearch <https://towardsdatascience.com/system-design-cheatsheets-elasticsearch-673b98eebfff>
 
 ## Security
 
-- https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code
+- <https://en.wikipedia.org/wiki/The_Power_of_10:_Rules_for_Developing_Safety-Critical_Code>
 
 ## Unreal Automation
 
-- https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/
-- https://qiita.com/donbutsu17/items/69988ad7db88f74ea084
-- https://edwardbeazer.com/functional-tests-with-gauntlet/
+- <https://horugame.com/gauntlet-automated-testing-and-performance-metrics-in-ue4/>
+- <https://qiita.com/donbutsu17/items/69988ad7db88f74ea084>
+- <https://edwardbeazer.com/functional-tests-with-gauntlet/>
 
 ## DDD
 
-- https://roluquec.medium.com/building-better-software-the-role-of-domain-storytelling-in-ddd-95091a93d89b
-- https://code.likeagirl.io/the-ddd-way-towards-screaming-design-part-i-strategic-patterns-1079963d996b
+- <https://roluquec.medium.com/building-better-software-the-role-of-domain-storytelling-in-ddd-95091a93d89b>
+- <https://code.likeagirl.io/the-ddd-way-towards-screaming-design-part-i-strategic-patterns-1079963d996b>
 
 ## Scalability
 
-- https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono
+- <https://web.archive.org/web/20221030091841/http://www.lecloud.net/tagged/scalability/chrono>
 
 ## VSCode
 
@@ -54,6 +54,7 @@ https://80000hours.org/career-guide/
   - Ruff
 - GitLens
 - Code Spell Checker
+- markdownlint
 
 #### Optional
 
@@ -61,10 +62,10 @@ https://80000hours.org/career-guide/
 
 `>Preferences: Open User Settings (JSON)`
 
-```
+```json
 {
+  "editor.formatOnSave": true,
   "[python]": {
-    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
       "source.organizeImports": "explicit"
@@ -87,8 +88,8 @@ https://80000hours.org/career-guide/
 
 ## Testing
 
-- https://tyrrrz.me/blog/unit-testing-is-overrated
-- https://blog.xendit.engineer/stop-testing-your-code-06c46dbb6554
+- <https://tyrrrz.me/blog/unit-testing-is-overrated>
+- <https://blog.xendit.engineer/stop-testing-your-code-06c46dbb6554>
 
 - Smoke Testing: This is done after API development is complete. Simply validate if the APIs are working and nothing breaks.
 - Functional Testing: This creates a test plan based on the functional requirements and compares the results with the expected results.
@@ -102,15 +103,15 @@ https://80000hours.org/career-guide/
 
 ## Technical Debt
 
-- How To Deal With Technical Debt https://medium.com/@techworldwithmilan/how-to-deal-with-technical-debt-b0065c1a794d
-- Conway's Law https://martinfowler.com/bliki/ConwaysLaw.html
-- Technical Debt Quadrant https://martinfowler.com/bliki/TechnicalDebtQuadrant.html
+- How To Deal With Technical Debt <https://medium.com/@techworldwithmilan/how-to-deal-with-technical-debt-b0065c1a794d>
+- Conway's Law <https://martinfowler.com/bliki/ConwaysLaw.html>
+- Technical Debt Quadrant <https://martinfowler.com/bliki/TechnicalDebtQuadrant.html>
 
 ## Management
 
 ### Technical Lead vs Engineering Manager
 
-https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66
+<https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66>
 
 | Area           | Tech Lead | Eng Manager     |
 |----------------|-----------|-----------------|
@@ -125,33 +126,32 @@ https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-
 | Career/Growth  | Supports  | Leads           |
 | Hiring         | Supports  | Leads           |
 
-
 ## Misc
 
-- How To Do Research Like A Boss https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/
-- Google Dorking https://medium.com/infosec/exploring-google-hacking-techniques-using-google-dork-6df5d79796cf
-- The Absolute Minimum Every Software Developer Must Know About Unicode https://tonsky.me/blog/unicode/
-- Latency Numbers Every Programmer Should Know https://gist.github.com/jboner/2841832
-- SDLC https://aws.amazon.com/what-is/sdlc/
-- EC2 vs Fargate vs Lambda https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6
-- Diagram as Code https://github.com/mingrammer/diagrams
-- 7 AI Tools Every Software Developer Needs to Know https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4
-- https://alex-omeyer.medium.com/9-ai-tools-every-software-developer-needs-to-try-1a3f888b52e
-- https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5
-- https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16
+- How To Do Research Like A Boss <https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/>
+- Google Dorking <https://medium.com/infosec/exploring-google-hacking-techniques-using-google-dork-6df5d79796cf>
+- The Absolute Minimum Every Software Developer Must Know About Unicode <https://tonsky.me/blog/unicode/>
+- Latency Numbers Every Programmer Should Know <https://gist.github.com/jboner/2841832>
+- SDLC <https://aws.amazon.com/what-is/sdlc/>
+- EC2 vs Fargate vs Lambda <https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6>
+- Diagram as Code <https://github.com/mingrammer/diagrams>
+- 7 AI Tools Every Software Developer Needs to Know <https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4>
+- <https://alex-omeyer.medium.com/9-ai-tools-every-software-developer-needs-to-try-1a3f888b52e>
+- <https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5>
+- <https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16>
 
 ## Backlog
 
-- https://blog.bitsrc.io/best-practices-for-api-security-6d8242587caf
-- https://medium.com/@mbarkin.narin/mastering-software-system-design-advanced-problem-solving-with-layered-architectures-9647ad2b7314
-- https://medium.com/@aserdargun/advanced-oop-in-python-a5f6130da291
-- https://towardsdatascience.com/advanced-python-dot-operator-809d0eb5d841
-- https://towardsdatascience.com/advanced-python-metaclasses-e32d46e0ebe3
-- https://towardsdatascience.com/advanced-python-functions-3be6810f92d1
-- https://newsletter.systemdesign.one/p/aws-scale
-- https://newsletter.systemdesign.one/p/actor-model
-- https://newsletter.systemdesign.one/p/prime-video-microservices
-- https://newsletter.systemdesign.one/p/scalable-software-architecture
-- https://www.youtube.com/watch?v=RrKRN9zRBWs&t=4s
-- https://www.boot.dev/tracks/backend
-- https://www.ryanestrada.com/learntoreadkoreanin15minutes/
+- <https://blog.bitsrc.io/best-practices-for-api-security-6d8242587caf>
+- <https://medium.com/@mbarkin.narin/mastering-software-system-design-advanced-problem-solving-with-layered-architectures-9647ad2b7314>
+- <https://medium.com/@aserdargun/advanced-oop-in-python-a5f6130da291>
+- <https://towardsdatascience.com/advanced-python-dot-operator-809d0eb5d841>
+- <https://towardsdatascience.com/advanced-python-metaclasses-e32d46e0ebe3>
+- <https://towardsdatascience.com/advanced-python-functions-3be6810f92d1>
+- <https://newsletter.systemdesign.one/p/aws-scale>
+- <https://newsletter.systemdesign.one/p/actor-model>
+- <https://newsletter.systemdesign.one/p/prime-video-microservices>
+- <https://newsletter.systemdesign.one/p/scalable-software-architecture>
+- <https://www.youtube.com/watch?v=RrKRN9zRBWs&t=4s>
+- <https://www.boot.dev/tracks/backend>
+- <https://www.ryanestrada.com/learntoreadkoreanin15minutes/>
