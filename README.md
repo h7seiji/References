@@ -109,6 +109,9 @@
 
 ## Management
 
+- <https://medium.com/@rociofernn/i-have-canceled-this-type-of-meeting-and-my-team-is-thriving-4317be1081cc>
+- Westrum's organization model <https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/>
+
 ### Technical Lead vs Engineering Manager
 
 <https://betterprogramming.pub/why-an-engineering-manager-should-not-review-code-46f87c08db66>
@@ -135,6 +138,7 @@
 - SDLC <https://aws.amazon.com/what-is/sdlc/>
 - EC2 vs Fargate vs Lambda <https://mikaelvesavuori.medium.com/which-is-cheaper-serverless-or-servers-1b18816ce7f6>
 - Diagram as Code <https://github.com/mingrammer/diagrams>
+- The best design is the one where complexity is kept minimal, and where locality is kept maximum. <https://unetworkingab.medium.com/multi-threading-is-always-the-wrong-design-a227be57f107>
 - 7 AI Tools Every Software Developer Needs to Know <https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4>
 - <https://alex-omeyer.medium.com/9-ai-tools-every-software-developer-needs-to-try-1a3f888b52e>
 - <https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5>
