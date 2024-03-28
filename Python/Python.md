@@ -1,5 +1,17 @@
 # Python
 
+## Contents
+
+- [Classes](Classes.md)
+- [Functions](Functions.md)
+- [Typing](Typing.md)
+- [Asyncio](Asyncio.md)
+- [FastAPI](FastAPI.md)
+- [Pytest](Pytest.md)
+- [Libraries](Libraries.md)
+
+## Other
+
 - Cheat Sheet <https://medium.com/@roelljr/ultimate-python-cheat-sheet-practical-python-for-everyday-tasks-c267c1394ee8>
 - <https://github.com/cjolowicz/cookiecutter-hypermodern-python>
 - <https://mitelman.engineering/blog/python-best-practice/automating-python-best-practices-for-a-new-project/>
@@ -54,83 +66,6 @@ python -m venv env-name
 - Complex State Management: This can lead to confusing code.
 - Performance-Critical: Might introduce minor speed overheads.
 
-## Functions
-
-- Functions in Python are first-class citizens. That means you can work with functions as you would with any other variable. You can pass them as arguments to other functions, return them from functions, and even store them in variables.
-- Functions are objects. Objects are instances of classes and contain methods and attributes.
-
-### Lambda functions
-
-### Decorators
-
-```python
-def my_logger(fun):
-    def _inner_decorator(*args, **kwargs):
-        print(f'{fun.__name__} is being called!')
-        return fun(*args, **kwargs)
-
-    return _inner_decorator
-
-@my_logger
-def my_function(n):
-    return sum(range(n))
-
-print(my_function(5))
-# my_function is being called!
-# 10
-```
-
-### *args **kwargs
-
-## Classes
-
-### @staticmethod
-
-The @staticmethod decorator allows you to define static methods within a class. These methods don’t have access to the instance or class itself but can be called without instantiating an object.
-
-```python
-class MathUtils:
-    @staticmethod
-    def square(x):
-        return x ** 2
-
-print(MathUtils.square(3))  # Output: 9
-```
-
-### @classmethod
-
-The @classmethod decorator defines methods that receive the class itself as the first argument instead of the instance.
-
-```python
-class MathUtils:
-    @classmethod
-    def cube(cls, x):
-        return x ** 3
-
-print(MathUtils.cube(3))  # Output: 27
-```
-
-### Metaclasses
-
-#### `__init__()`
-
-#### `__new__()`
-
-#### `__call__()`
-
-## Asyncio
-
-- <https://github.com/timofurrer/awesome-asyncio>
-- <https://blog.devgenius.io/mastering-asynchronous-programming-in-python-a-comprehensive-guide-ef1e8e5b35db>
-
-### Coroutine
-
-### Event Loop
-
-### Future
-
-### Task
-
 ## Threading
 
 ## Multiprocessing
@@ -163,63 +98,3 @@ print(dict_obj[set_ex])
 - <https://opensource.com/article/18/4/introduction-python-bytecode>
 - <https://medium.com/@noransaber685/demystifying-python-bytecode-a-guide-to-understanding-and-analyzing-code-execution-6a163cb83bd1>
 - <https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79>
-
-## FastAPI
-
-- Mongo + FastAPI: <https://www.mongodb.com/languages/python/pymongo-tutorial>
-
-## Pytest
-
-Import modules from current directory
-
-```bash
-python -m pytest
-```
-
-Run only one test
-
-```bash
-pytest test_file.py::test_function
-```
-
-### Fixtures
-
-```python
-# conftest.py
-import pytest
-
-@pytest.fixture
-def db_connection():
-  yield
-```
-
-```python
-# test_example.py
-def test_db_connection(db_connection):
-  assert True
-```
-
-### Monkeypatching
-
-```python
-def test_mytest(monkeypatch):
-  monkeypatch.setattr(app_onboarding, "username_moderation", mock_moderation)
-```
-
-## Libraries
-
-- HTTPX: <https://github.com/encode/httpx>
-- Dotenv: <https://saurabh-kumar.com/python-dotenv/>
-- FastAPI: <https://fastapi.tiangolo.com/>
-- Pydantic: Data validation <https://docs.pydantic.dev/latest/>
-- SQLModel: ORM <https://sqlmodel.tiangolo.com/>
-- Ruff: Linter and formatter <https://github.com/astral-sh/ruff>
-- BeautifulSoup: Web scrapper <https://www.crummy.com/software/BeautifulSoup/>
-- Pendulum: Datetimes made easy <https://pendulum.eustace.io/>
-- Icecream: Print for dubgging <https://github.com/gruns/icecream>
-- Loguru: Logging <https://github.com/Delgan/loguru>
-- Seaborn: Statistical data visualization <https://github.com/mwaskom/seaborn>
-- factory_boy: Create fake data <https://github.com/FactoryBoy/factory_boy>
-- hug: Simple API framework <https://github.com/hugapi/hug>
-- pyinstrument: Performance profiler <https://github.com/joerick/pyinstrument>
-- gevent: Coroutine-based networking library <https://www.gevent.org/>

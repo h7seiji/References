@@ -1,5 +1,10 @@
 # References
 
+## Table of contents
+
+- [Python](Python/Python.md)
+- [Linux](Linux.md)
+
 ## Career
 
 <https://80000hours.org/career-guide/>
