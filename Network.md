@@ -4,7 +4,7 @@
 
 - 7 - Application Layer
   - Specific type of application itself and its standardized communication methods.
-  - Ex.: HTTPS, POP3, SMTP
+  - Ex.: HTTP, HTTPS, POP3, SMTP, XMPP
 - 6 - Presentation Layer
   - Syntax of the data itself for applications to send and consume.
   - Ex.: HTML, JSON, CSV
@@ -54,3 +54,47 @@ The Internet Control Message Protocol (ICMP) is a network layer protocol used by
 ## Proxy
 
 ## NGINX
+
+## XMPP (Jabber)
+
+Extensible Messaging and Presence Protocol
+
+### Core
+
+At its core, XMPP is a technology for streaming XML over a network.
+
+### Jingle
+
+### Multi-User-Chat (MUC)
+
+### PubSub
+
+### BOSH
+
+## MQTT
+
+MQTT is a standards-based messaging protocol, or set of rules, used for machine-to-machine communication.
+
+The MQTT protocol has become a standard for IoT data transmission.
+
+- Pub/Sub
+
+### Components
+
+- Client
+- Broker
+- Connection
+
+## SIP
+
+## WebRTC
+
+## Websocket
+
+## BOSH
+
+Bidirectional-streams Over Synchronous HTTP
+
+The main purpose of BOSH is to establish XMPP connections to supported XMPP servers.
+
+The main advantage of this protocol is that it does not require any new feature in the browser. The HTML5 standard that replaces BOSH is WebSockets.
