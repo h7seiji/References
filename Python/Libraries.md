@@ -370,3 +370,4 @@ print(upcase(s))
 - hug: Simple API framework <https://github.com/hugapi/hug>
 - pyinstrument: Performance profiler <https://github.com/joerick/pyinstrument>
 - gevent: Coroutine-based networking library <https://www.gevent.org/>
+- Greenlet: Lightweight coroutines for in-process concurrent programming. <https://github.com/python-greenlet/greenlet/tree/master>

@@ -128,7 +128,7 @@ The MQTT protocol has become a standard for IoT data transmission.
 
 ## SIP
 
-Session Initiation Protocol
+The Session Initiation Protocol (SIP) is a signaling protocol used for initiating, maintaining, and terminating communication sessions that include voice, video and messaging applications.
 
 Application Layer
 
@@ -158,3 +158,9 @@ STARTTLS is not a protocol but an email protocol command. It’s used to tell an
 ## SASL
 
 Simple Authentication and Security Layer (SASL) is a framework for authentication and data security in Internet protocols. It decouples authentication mechanisms from application protocols, in theory allowing any authentication mechanism supported by SASL to be used in any application protocol that uses SASL.
+
+## NAT
+
+Network Address Translation (NAT) is a service that operates on a router or edge platform to connect private networks to public networks like the internet. NAT is often implemented at the WAN edge router to enable internet access in core, campus, branch, and colocation sites.
+
+With NAT, an organization needs one IP address or one limited public IP address to represent an entire group of devices as they connect outside their network. Port Address Translation (PAT) enables one single IP to be shared by multiple hosts using IP and port address translation.

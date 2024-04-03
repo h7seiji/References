@@ -12,6 +12,7 @@
 ## C++
 
 - <https://cplusplus.com/doc/tutorial/>
+- <https://medium.com/@CognitiveProgrammer/modern-c-programming-things-that-shouldnt-be-used-anymore-f7f046f09c04>
 
 ## Kubernetes
 
@@ -134,6 +135,13 @@
 | Career/Growth  | Supports  | Leads           |
 | Hiring         | Supports  | Leads           |
 
+### Ownership
+
+- Accountability: Who must ensure that the work on X gets completed, and done so correctly and safely
+- Responsibility: People who should be tasked with doing the actual work on X
+- Expertise: People who best understand X (or some relevant component of it), often because they’ve built it, and can inform how work should be done
+- Authorization: People who are able to commit or approve changes to code, data or other assets associated with X
+
 ## Misc
 
 - How To Do Research Like A Boss <https://www.reddit.com/r/writing/comments/30tqkh/how_to_do_research_like_a_boss/>
@@ -145,6 +153,8 @@
 - Diagram as Code <https://github.com/mingrammer/diagrams>
 - The best design is the one where complexity is kept minimal, and where locality is kept maximum. <https://unetworkingab.medium.com/multi-threading-is-always-the-wrong-design-a227be57f107>
 - 7 AI Tools Every Software Developer Needs to Know <https://alex-omeyer.medium.com/7-ai-tools-every-software-developer-needs-to-know-2023-361929746ec4>
+- Estimations <https://medium.com/@techworldwithmilan/all-estimations-are-wrong-but-none-are-useful-2550586d35e6>
+- Recruiter autoresponse <https://index.medium.com/career-advice-nobody-gave-me-never-ignore-a-recruiter-4474eac9556>
 - <https://alex-omeyer.medium.com/9-ai-tools-every-software-developer-needs-to-try-1a3f888b52e>
 - <https://ek121268.medium.com/these-are-the-top-15-essential-vscode-extensions-to-boost-your-productivity-as-a-developer-8e04f0a97f5>
 - <https://medium.com/bitgrit-data-science-publication/a-roadmap-to-learn-ai-in-2024-cc30c6aa6e16>

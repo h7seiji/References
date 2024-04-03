@@ -97,3 +97,7 @@ Any process can register a route to itself. It's done by calling to ejabberd_rou
 #### ejabberd_s2s and ejabberd_s2s_out
 
 If a stanza is destined neither to local virtual host not to a route-registered process, it's passed to ejabberd_s2s.erl module via ejabberd_s2s:route/1 function call.
+
+## Authentication
+
+## Databases
