@@ -1,6 +1,7 @@
 # Google Cloud
 
-<https://github.com/priyankavergadia/google-cloud-4-words>
+- <https://www.thecloudgirl.dev/>
+- <https://github.com/priyankavergadia/google-cloud-4-words>
 
 ## Resources and Access
 
