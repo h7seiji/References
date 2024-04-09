@@ -30,7 +30,23 @@ Now is better than never.
 Although never is often better than *right* now.  
 If the implementation is hard to explain, it's a bad idea.  
 If the implementation is easy to explain, it may be a good idea.  
-Namespaces are one honking great idea -- let's do more of those!
+Namespaces are one honking great idea -- let's do more of those!  
+
+## Garbage Collector
+
+> Everything in Python is an object
+
+Python variables do not actually contain the data; it is just the container holding address (pointer) which points to the location of the actual data object (in heap memory)
+
+For a better way to think, variables are labels with names attached to objects.
+
+The process of garbage-collector automatically runs in the background.
+
+You can also manually control this process using the GC module if needed.
+
+### Reference Counting (CPython)
+
+Essentially, each object keeps count of how many references point to it. The object will be garbage-collected as soon as that ref count reaches zero.
 
 ## Other
 
@@ -69,24 +85,6 @@ python -m venv env-name
 ## List Comprehension
 
 - <https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions>
-
-## Generators
-
-### When to Use Generators
-
-- Large Datasets: Process without consuming all memory.
-- Streaming Data: Handle real-time data streams effectively.
-- Expensive Computations: Compute values lazily, only when needed.
-- Infinite Sequences: Produce values indefinitely.
-- Pipeline Processing: Reduce memory in data processing chains.
-
-### When Generators Might Not Be Ideal
-
-- Random Access: Generators are linear, not for indexed access.
-- Multiple Passes: Generators exhaust after one use; not for re-traversing.
-- Short Data Sequences: Overkill for small, in-memory datasets.
-- Complex State Management: This can lead to confusing code.
-- Performance-Critical: Might introduce minor speed overheads.
 
 ## Threading
 

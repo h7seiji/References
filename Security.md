@@ -48,6 +48,19 @@ When hashing passwords, salts are used to add an extra layer of security. Hereâ€
 3. Hash the Combination: Hash the combination of the salt and the password using a secure hash function, such as Scrypt, Argon2 or SHA-2562.
 4. Store the Salt and Hash: Save both the salt and the hash in your user database2. When the user logs in again, you will need to retrieve the salt, append it to the provided password, hash the result, and compare it to the stored hash
 
-## Encryption at rest
+## Encryption
 
-## Encryption in transit
+- <https://cloud.google.com/docs/security/encryption/default-encryption?hl=en>
+- <https://cloud.google.com/docs/security/encryption-in-transit?hl=en>
+
+### Encryption at rest
+
+Protects your data from a system compromise or data exfiltration by encrypting data while stored. The Advanced Encryption Standard (AES) is often used to encrypt data at rest.
+
+### Encryption in transit
+
+Protects your data if communications are intercepted while data moves between your site and the cloud provider or between two services. This protection is achieved by encrypting the data before transmission; authenticating the endpoints; and, on arrival, decrypting and verifying that the data was not modified. For example, Transport Layer Security (TLS) is often used to encrypt data in transit for transport security, and Secure/Multipurpose Internet Mail Extensions (S/MIME) is used often for email message encryption.
+
+### Encryption in use
+
+Protects your data in memory from compromise or data exfiltration by encrypting data while being processed. For more information, see Confidential Computing.

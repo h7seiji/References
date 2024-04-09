@@ -1,5 +1,7 @@
 # ejabberd
 
+Basic Tutorial: <https://www.process-one.net/blog/how-to-move-the-office-to-real-time-im-on-ejabberd/>
+
 - ejabberd is a free and open source instant messaging server written in Erlang/OTP.
 - ejabberd is cross-platform, distributed, fault-tolerant, and based on open standards to achieve real-time communication.
 - ejabberd is designed to be a rock-solid and feature rich XMPP server.
@@ -68,7 +70,7 @@ During these procedures xmpp_stream_in.erl calls functions from its callback mod
 
 #### ejabberd_c2s, ejabberd_s2s_in and ejabberd_service
 
-These are modules of xmpp_stream_in behaviour. The only purpose of these modules is to provide callback functions for xmpp_stream_in.erl module. Examples of such callback functions are:
+These are modules of xmpp_stream_in behavior. The only purpose of these modules is to provide callback functions for xmpp_stream_in.erl module. Examples of such callback functions are:
 
 - tls_enabled/1: tells whether or not TLS is enabled in the configuration
 - check_password_fun/1: provides a function for SASL authentication
@@ -98,6 +100,20 @@ Any process can register a route to itself. It's done by calling to ejabberd_rou
 
 If a stanza is destined neither to local virtual host not to a route-registered process, it's passed to ejabberd_s2s.erl module via ejabberd_s2s:route/1 function call.
 
+## Backends
+
+Backends are pluggable modules you can configure to define where you would like to store part or all of your data.
+
+## MQTT
+
+<https://www.process-one.net/blog/starting-with-mqtt-protocol-and-ejabberd-mqtt-broker/>
+
+ejabberd MQTT broker is included in every installation of latest ejabberd versions and is available on port 1883 out-of-the-box.
+
 ## Authentication
 
+<https://docs.ejabberd.im/developer/guide/#external-authentication>
+
 ## Databases
+
+<https://docs.ejabberd.im/admin/configuration/database/>

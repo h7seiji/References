@@ -25,3 +25,21 @@ print(my_function(5))
 ```
 
 ## *args **kwargs
+
+## Generators
+
+### When to Use Generators
+
+- Large Datasets: Process without consuming all memory.
+- Streaming Data: Handle real-time data streams effectively.
+- Expensive Computations: Compute values lazily, only when needed.
+- Infinite Sequences: Produce values indefinitely.
+- Pipeline Processing: Reduce memory in data processing chains.
+
+### When Generators Might Not Be Ideal
+
+- Random Access: Generators are linear, not for indexed access.
+- Multiple Passes: Generators exhaust after one use; not for re-traversing.
+- Short Data Sequences: Overkill for small, in-memory datasets.
+- Complex State Management: This can lead to confusing code.
+- Performance-Critical: Might introduce minor speed overheads.
