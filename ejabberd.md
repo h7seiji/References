@@ -1,5 +1,7 @@
 # ejabberd
 
+<https://docs.ejabberd.im/tutorials/>
+
 Basic Tutorial: <https://www.process-one.net/blog/how-to-move-the-office-to-real-time-im-on-ejabberd/>
 
 - ejabberd is a free and open source instant messaging server written in Erlang/OTP.
