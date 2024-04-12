@@ -61,6 +61,9 @@
 - GitLens
 - Code Spell Checker
 - markdownlint
+- Javascript
+  - eslint
+  - prettier
 
 #### Optional
 
@@ -112,6 +115,7 @@
 - How To Deal With Technical Debt <https://medium.com/@techworldwithmilan/how-to-deal-with-technical-debt-b0065c1a794d>
 - Conway's Law <https://martinfowler.com/bliki/ConwaysLaw.html>
 - Technical Debt Quadrant <https://martinfowler.com/bliki/TechnicalDebtQuadrant.html>
+- Is High Quality Software Worth the Cost? <https://martinfowler.com/articles/is-quality-worth-cost.html>
 
 ## Management
 

@@ -59,6 +59,8 @@ Like AWS Lambda
 
 Serverless functions
 
+2nd Generation runs on Cloud Run with Eventarc
+
 ### Cloud Run
 
 Like AWS ECS Fargate, but more streamlined.

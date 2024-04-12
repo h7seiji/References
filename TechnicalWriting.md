@@ -2,6 +2,7 @@
 
 - <https://developers.google.com/tech-writing/overview>
 - <https://www.writethedocs.org/>
+- <https://levelup.gitconnected.com/document-well-build-better-the-impact-of-software-documentation-on-architecture-2fd46283bc78>
 
 ## Markdown
 
