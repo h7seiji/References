@@ -119,3 +119,33 @@ ejabberd MQTT broker is included in every installation of latest ejabberd versio
 ## Databases
 
 <https://docs.ejabberd.im/admin/configuration/database/>
+
+## Build
+
+- Dependencies (Ubuntu)
+
+```bash
+sudo apt install erlang elixir make gcc libexpat1-dev libyaml-dev libyaml-cpp-dev openssl libssl-dev automake build-essential zlib1g-dev
+```
+
+- Compile
+
+```bash
+./autogen.sh
+./configure --with-rebar=mix
+make
+```
+
+- Build
+
+```bash
+make dev
+```
+
+## Run Locally
+
+- Start server: `ejabberdctl start`
+- Start with logs: `_build/dev/rel/ejabberd/bin/ejabberdctl live`
+- Register users: `_build/dev/rel/ejabberd/bin/ejabberdctl register admin example.org password`
+
+Connect to server with Client (Pidgin) with TLS disabled.

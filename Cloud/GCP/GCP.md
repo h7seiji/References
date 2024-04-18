@@ -13,6 +13,33 @@
 
 ## Storage
 
+### Google Cloud Storage
+
+#### Location Type
+
+- Regional: Good for colocating compute and storage for high performance.
+- Multi-Region: Good for serving content to end users and when you want automatic failover.
+- Dual-Region: Good for when you need colocated compute and storage and automatic DR.
+
+#### Storage Class
+
+- Standard
+- Nearline: For data accessed less than once a month
+- Coldline: For data accessed roughly less than once a quarter
+- Archive: For long term retention (less than once a year)
+
+Autoclass automatically transitions objects to colder storage classes based on usage patterns
+
+### Move Data
+
+#### GCS Transfer Tools
+
+#### Transfer Service
+
+#### Transfer Appliance
+
+#### BigQuery Data Transfer Service
+
 ## Compute Options
 
 ### Compute Engine
