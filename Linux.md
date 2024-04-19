@@ -1,8 +1,10 @@
 # Linux
 
+<https://www.brendangregg.com/linuxperf.html>
+
 ## Commands
 
-- https://blog.stackademic.com/advanced-linux-commands-for-the-modern-hacker-84b1cd4ca15f
+- <https://blog.stackademic.com/advanced-linux-commands-for-the-modern-hacker-84b1cd4ca15f>
   - Netcat (`nc`)
   - tcpdump
   - nmap
