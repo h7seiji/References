@@ -40,3 +40,10 @@ print(MathUtils.cube(3))  # Output: 27
 It provides a concise way to create classes primarily used for storing and managing data.
 @dataclass automatically generates special methods such as __init__, __repr__, __eq__, and more based on the class attributes.
 This reduces the need for writing repetitive and boilerplate code, making your codebase more readable and maintainable.
+
+```python
+@dataclass(frozen=True)
+class ImmutablePoint:
+    x: int
+    y: int
+```

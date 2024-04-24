@@ -64,3 +64,30 @@ Protects your data if communications are intercepted while data moves between yo
 ### Encryption in use
 
 Protects your data in memory from compromise or data exfiltration by encrypting data while being processed. For more information, see Confidential Computing.
+
+## OWASP Secure Coding Principles
+
+- Input Validation
+- Output Encoding
+- Authentication and Password Management
+- Session Management
+- Access Control
+- Cryptographic Practices
+- Error Handling and Logging
+- Data Protection
+- Communication Security
+- System Configuration
+- Database Security
+- File Management
+- Memory Management
+- General Coding Practices
+
+## Cross-Site Scripting
+
+## SQL Injection
+
+## HTTP Response Splitting
+
+## Content Spoofing
+
+## Information Leaking

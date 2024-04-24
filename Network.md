@@ -37,7 +37,13 @@
 
 ## IP
 
-### Subnets
+### IPv4 Address and Subnet Mask
+
+The subnet mask (also called the prefix length) separates the network portion from the host portion of the IPv4 address.
+
+A subnet mask is 32 bits long. It has a group of 1s followed by a group of 0s. The 1s indicate the network portion of the IP address, and the 0s indicate the host portion.
+
+172.18.0.0/16 (indicating 16 one bits)
 
 ## ICMP
 
