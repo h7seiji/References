@@ -3,6 +3,64 @@
 - Functions in Python are first-class citizens. That means you can work with functions as you would with any other variable. You can pass them as arguments to other functions, return them from functions, and even store them in variables.
 - Functions are objects. Objects are instances of classes and contain methods and attributes.
 
+## Arguments
+
+### Default Arguments
+
+```python
+def greet(name, age=30):
+    print(f"Hello, {name}. You are {age} years old.")
+
+greet("John")
+
+# Output: Hello, John. You are 30 years old.
+```
+
+#### Mutable Default Arguments
+
+The default argument is only evaluated once, when the function is defined.
+
+```python
+def add_item(item, items=[]):
+    items.append(item)
+    return items
+
+print(add_item("apple"))    # ["apple"]
+print(add_item("orange"))   # ["apple", "orange"]
+```
+
+### *args **kwargs
+
+*args is used to pass a variable number of non-keyword arguments to a function.
+
+**kwargs is used to pass a variable number of keyword arguments to a function.
+
+Note: we don't need to use args and kwargs for the names, it is just convention.
+
+```python
+def add_numbers(*numbers):
+    result = 0
+    for number in numbers:
+        result += number
+    return result
+print(add_numbers(1, 2, 3, 4, 5))
+
+def print_info(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+print_info(name="John", age=25, city="New York")
+```
+
+### Unpacking Arguments
+
+```python
+def greet(name, age):
+    print(f"Hello, {name}. You are {age} years old.")
+
+person = ("John", 25)
+greet(*person)
+```
+
 ## Lambda functions
 
 ## Decorators
@@ -23,8 +81,6 @@ print(my_function(5))
 # my_function is being called!
 # 10
 ```
-
-## *args **kwargs
 
 ## Generators
 
