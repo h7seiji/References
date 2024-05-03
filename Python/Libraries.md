@@ -356,6 +356,7 @@ print(upcase(s))
 ## Third-party
 
 - HTTPX: <https://github.com/encode/httpx>
+- Pycurl: Fast requests <http://pycurl.io/>
 - Dotenv: <https://saurabh-kumar.com/python-dotenv/>
 - FastAPI: <https://fastapi.tiangolo.com/>
 - Pydantic: Data validation <https://docs.pydantic.dev/latest/>
