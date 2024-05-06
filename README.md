@@ -182,3 +182,10 @@
 - <https://www.youtube.com/watch?v=RrKRN9zRBWs&t=4s>
 - <https://www.boot.dev/tracks/backend>
 - <https://www.ryanestrada.com/learntoreadkoreanin15minutes/>
+
+- <https://training.linuxfoundation.org/training/a-beginners-guide-to-linux-kernel-development-lfd103/>
+- <https://sre.google/books/>
+- <https://www.amazon.com.br/Designing-Data-Intensive-Applications-Martin-Kleppmann/dp/1449373321/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=>
+- <https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE>
+- <https://www.brendangregg.com/systems-performance-2nd-edition-book.html>
+- <https://kodekloud.com/>
