@@ -91,3 +91,29 @@ Protects your data in memory from compromise or data exfiltration by encrypting 
 ## Content Spoofing
 
 ## Information Leaking
+
+## SSL
+
+### Generate Self-signed SSL Certificate
+
+- Generate a Private Key and a CSR (Certificate Signing Request): Use the following command to generate a new private key mykey.pem and a CSR mycsr.csr:
+
+```bash
+openssl req -new -newkey rsa:2048 -nodes -keyout mykey.pem -out mycsr.csr -subj "/C=BR/ST=Sao Paulo/L=Sao Paulo/O=PTW/CN=localhost"
+```
+
+In this example, C is for Country, ST is for State, L is for Locality or city, O is for Organization, and CN is for Common Name which is usually the domain name.
+
+- Generate a Self-Signed Certificate: Now, use the following command to generate a self-signed certificate mycert.pem that is valid for 365 days:
+
+```bash
+openssl x509 -req -days 365 -in mycsr.csr -signkey mykey.pem -out mycert.pem
+```
+
+Now, mycert.pem is your self-signed certificate and mykey.pem is your private key.
+
+- Combine the Private Key and the Certificate into a Single PEM File:
+
+```bash
+cat mycert.pem mykey.pem > mongo.pem
+```

@@ -77,9 +77,11 @@ Essentially, each object keeps count of how many references point to it. The obj
 ## venv
 
 ```bash
-python -m venv env-name
+python -m venv .venv
 
-.\env-name\Scripts\Activate.ps1
+.venv\Scripts\Activate.ps1 # PowerShell
+.venv\Scripts\activate.bat # WINDOWS
+source .venv/bin/activate # LINUX/MAC
 ```
 
 ## List Comprehension
