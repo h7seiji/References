@@ -121,6 +121,7 @@
 
 - <https://medium.com/@rociofernn/i-have-canceled-this-type-of-meeting-and-my-team-is-thriving-4317be1081cc>
 - Westrum's organization model <https://itrevolution.com/articles/westrums-organizational-model-in-tech-orgs/>
+- <https://blog.practicalengineering.management/how-to-build-engineering-strategy-42e464018177>
 
 ### Technical Lead vs Engineering Manager
 
