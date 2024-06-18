@@ -83,7 +83,8 @@
   },
   "python.analysis.typeCheckingMode": "basic",
   "explorer.confirmDragAndDrop": false,
-  "editor.acceptSuggestionOnEnter": "off"
+  "editor.acceptSuggestionOnEnter": "off",
+  "python.analysis.autoImportCompletions": true
 }
 ```
 
