@@ -89,6 +89,18 @@ Regular VMs on regular machines, dedicated specifically to your workloads
 - Auto-updating
 - Stateful
 
+#### Storage Options
+
+- Balanced Persistent Disk: Cost-effective and reliable block storage
+- SSD Persistent Disk: Fast and reliable block storage
+- Standard Persistent Disk: Efficient and reliable block storage
+- Extreme Persistent Disk: Highest performance Persistent Disk block storage option with customizable IOPS
+- Hyperdisk Balanced: High performance for demanding workloads with a lower cost
+- Hyperdisk Extreme: Fastest block storage option with customizable IOPS
+- Hyperdisk Throughput: Cost-effective and throughput-oriented block storage with customizable throughput
+- Local SSDs: High performance local block storage
+- Cloud Storage Buckets: Affordable object storage
+
 ### App Engine
 
 Like AWS Elastic Beanstalk
@@ -117,10 +129,10 @@ Google Kubernetes Engine
 
 ## Data
 
-## Cloud Dataproc
+### Cloud Dataproc
 
 Hadoop/Spark on Cloud
 
-## Cloud Dataflow
+### Cloud Dataflow
 
 Stream and batch processing

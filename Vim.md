@@ -4,7 +4,7 @@
 
 ## NvChad
 
-<https://nvchad.com/>
+https://nvchad.com/
 
 - Many beautiful themes, theme toggler by our base46 plugin <https://github.com/NvChad/base46>
 - Lightweight & performant ui plugin with NvChad UI It provides statusline modules, tabufline ( tabs + buffer manager) , beautiful cheatsheets, NvChad updater, hide & unhide terminal buffers, theme switcher and much more! <https://github.com/NvChad/ui>

@@ -1,5 +1,9 @@
 # MongoDB
 
+## Methods
+
+- Collection.distinct(key, filter)
+
 ## OpenSSL CA Certificate for Testing
 
 - <https://www.mongodb.com/docs/manual/appendix/security/appendixA-openssl-ca/>
@@ -30,3 +34,8 @@ db.media.find({ "Tracklist.Title": "In Bloom" })
 ### Operators
 
 <https://www.mongodb.com/docs/manual/reference/operator/query/>
+
+## Aggregations
+
+https://www.practical-mongodb-aggregations.com/
+

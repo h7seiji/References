@@ -192,3 +192,4 @@
 - <https://www.youtube.com/watch?v=rx6CPDK_5mU&list=PLy_6D98if3ULEtXtNSY_2qN21VCKgoQAE>
 - <https://www.brendangregg.com/systems-performance-2nd-edition-book.html>
 - <https://kodekloud.com/>
+- object oriented, procedural, imperative, functional, DOD

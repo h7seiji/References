@@ -1,5 +1,7 @@
 # Python
 
+<https://roadmap.sh/python>
+
 ## Contents
 
 - [Classes](Classes.md)
@@ -84,6 +86,17 @@ python -m venv .venv
 source .venv/bin/activate # LINUX/MAC
 ```
 
+## List x Tuple x Set
+
+- Duplicates
+- Sorting Order
+- Mutability
+- Indexing
+
+### When to use List vs. Tuple?
+
+### When to use Set vs. List/Tuple?
+
 ## List Comprehension
 
 - <https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions>
@@ -120,3 +133,11 @@ print(dict_obj[set_ex])
 - <https://opensource.com/article/18/4/introduction-python-bytecode>
 - <https://medium.com/@noransaber685/demystifying-python-bytecode-a-guide-to-understanding-and-analyzing-code-execution-6a163cb83bd1>
 - <https://medium.com/@yonatanzunger/advanced-python-achieving-high-performance-with-code-generation-796b177ec79>
+
+## Useful code excerpts
+
+- Find first occurence in a list of Dictionaries
+
+```python
+result = next((item for item in data if item["key"] == value), None)
+```
