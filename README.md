@@ -49,11 +49,15 @@
 
 ### Navigation
 
--
+- `ctrl+p`: command palette
+- `ctrl+shift+o`: go to symbol
+- `ctrl+g`: go to line
+- `ctrl+x`: cut entire line
+- `alt+up/down`: move line up or down
+- `shift+alt+up/down`: copy line up or down
+- `ctrl+d`: adds to your cursor selection the next match
 
 ### Extensions
-
-#### Essentials
 
 - Docker
 - Python
@@ -64,8 +68,6 @@
 - Javascript
   - eslint
   - prettier
-
-#### Optional
 
 ### `settings.json`
 

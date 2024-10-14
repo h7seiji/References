@@ -49,6 +49,72 @@ Pick and choose specific commits from one branch and apply them to another branc
 
 - `git cherry-pick <commit-hash>`
 
+## Switch remote repository
+
+- `git remote set-url origin git@gitlab.com:XXXXX`
+
+## Modify the most recent commit
+
+- `git commit --amend`
+
+## Revert all local changes
+
+- `git checkout .`
+
+## Remove file from last commit
+
+```shell
+git rm —-cached <file-to-remove>
+git commit —-amend
+```
+
+## Remove files that are listed in the .gitignore but are still on the repository
+
+```shell
+git rm -r --cached .
+git add .
+git commit -m "Removing all files in .gitignore"
+```
+
+## Git Submodules
+
+```shell
+git submodule add git@gitlab.com:real2u/hana3d.git
+```
+
+### Clone with submodules
+
+```shell
+git clone --recurse-submodules https://github.com/chaconinc/MainProject
+```
+
+### Init and update submodules
+
+```shell
+git submodule update --init --recursive
+```
+
+## Delete local Git branches that were deleted on remote repository
+
+```shell
+git remote prune origin && git branch -vv | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d
+```
+
+## File permissions when pushing on Windows
+
+```shell
+git update-index --chmod=+x <file>
+```
+
+## Create empty branch
+
+```shell
+git checkout --orphan empty-branch
+git rm -rf .
+git commit --allow-empty -m "root commit"
+git push origin empty-branch
+```
+
 ## Merge Strategies
 
 ### Fast-forward

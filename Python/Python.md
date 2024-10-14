@@ -76,6 +76,17 @@ Essentially, each object keeps count of how many references point to it. The obj
 - Exception Handling <https://medium.com/@saadjamilakhtar/5-best-practices-for-python-exception-handling-5e54b876a20>
 - Cheatsheet <https://dranolia.medium.com/python-cheatsheet-51b552b56a81>
 
+## pyenv
+
+- <https://github.com/pyenv/pyenv>
+- <https://github.com/pyenv-win/pyenv-win>
+
+```bash
+pyenv update
+pyenv install 3.13.0
+pyenv global 3.13.0
+```
+
 ## venv
 
 ```bash
@@ -88,14 +99,29 @@ source .venv/bin/activate # LINUX/MAC
 
 ## List x Tuple x Set
 
-- Duplicates
-- Sorting Order
-- Mutability
-- Indexing
+- Duplicates: a Set cannot contain duplicates
+- Sorting Order: Lists and Tuples are ordered sequences of objects
+- Mutability: Tuples are immutable. We can only add elements to a Set
+- Indexing: Tuple and List support indexing and slicing, while Set does not
 
 ### When to use List vs. Tuple?
 
+#### Use List
+
+- When you need to mutate your collection
+- When you need to remove or add new items to your collection of items
+
+#### Use Tuple
+
+- If your data should or does not need to be changed
+- Tuples are faster than lists. We should use a Tuple instead of a List if we are defining a constant set of values and all we are ever going to do with it is iterate through it
+- If we need an array of elements to be used as dictionary keys, we can use Tuples. As Lists are mutable (unhashable type), they can never be used as dictionary keys
+
 ### When to use Set vs. List/Tuple?
+
+As Set uses Hash Table as its underlying data structure, Set is blazingly fast when it comes to checking if an element is inside it.
+
+Essentially, if you do not need to store duplicates, Set is going to be better than List.
 
 ## List Comprehension
 

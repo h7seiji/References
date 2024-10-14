@@ -82,6 +82,20 @@ Protects your data in memory from compromise or data exfiltration by encrypting 
 - Memory Management
 - General Coding Practices
 
+## HTTP Host Header attack (Host Header Injection)
+
+- An HTTP Host Header attack occurs when an attacker manipulates the value of the Host header in an HTTP request to gain unauthorized access or influence server behavior
+- The Host header is a mandatory request header in HTTP/1.1 that specifies the domain name the client wants to access
+- If a web application doesn't properly validate or sanitize the Host header, an attacker can inject malicious payloads that manipulate server-side behavior
+
+## HSTS (Strict-Transport-Security header)
+
+- The primary purpose of the HSTS header is to instruct browsers to interact with a website only over HTTPS, preventing any communication over insecure HTTP connections
+
+## Clickjacking
+
+- Clickjacking, also known as UI redress attack, is a malicious technique that tricks users into clicking on invisible buttons or links on a webpage
+
 ## Cross-Site Scripting
 
 ## SQL Injection

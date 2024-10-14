@@ -24,3 +24,19 @@ Iptables is a firewall program for Linux. It uses tables of IP packet filter rul
 ## tcpdump
 
 The tcpdump command can be used to capture network traffic on a Linux system.
+
+## File Permissions
+
+```sh
+chmod a+rx my-script.sh
+chmod -R a+rx directory
+```
+
+## Shell commands
+
+### Download and Unzip
+
+```sh
+curl -o sdk.zip https://partner.steamgames.com/downloads/steamworks_sdk_157.zip
+unzip sdk.zip
+```

@@ -53,5 +53,4 @@ Simplifies application development by giving you the ability to create a flexibl
 securely access, manipulate, and combine data from one or more data sources. AWS AppSync is a managed
 service that uses GraphQL to help applications get the exact data that they need. You can use AWS AppSync to
 build scalable applications that require real-time updates on a range of data sources, including Amazon
-DynamoDB. 
-
+DynamoDB.

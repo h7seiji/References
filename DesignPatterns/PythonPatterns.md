@@ -1,7 +1,7 @@
-# Design Patterns
+# Python Design Patterns
 
-- https://refactoring.guru/design-patterns/catalog
-- https://www.youtube.com/watch?v=pGq7Cr2ekVM
+- <https://python-patterns.guide/>
+- <https://www.youtube.com/watch?v=pGq7Cr2ekVM>
 
 ## Huge and dominate our frameworks
 
