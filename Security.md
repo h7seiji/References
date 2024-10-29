@@ -41,7 +41,7 @@
 
 ## Hashing Passwords
 
-When hashing passwords, salts are used to add an extra layer of security. Here’s a basic process on how to use salts when hashing:
+When hashing passwords, salts are used to add an extra layer of security. Here's a basic process on how to use salts when hashing:
 
 1. Generate a Salt: Use a Cryptographically Secure Pseudo-Random Number Generator (CSPRNG) to produce a salt2. The salt should be unique for each user password.
 2. Combine Salt and Password: Add the salt to the beginning or the end of the password3.

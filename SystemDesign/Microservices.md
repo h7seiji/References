@@ -1,5 +1,7 @@
 # Microservices
 
+- <https://medium.com/@sylvain.tiset/top-10-microservices-design-patterns-you-should-know-1bac6a7d6218>
+
 - Codebase (one codebase tracked in revision control, many deploys) – Each
 microservice owns its own codebase in a separate repository and throughout the
 lifecycle of the code change.
@@ -92,6 +94,7 @@ request to either store data in it or retrieve data from it.
 invokes another service that was watching for an event.
 
 Key Factors:
+
 - Port Binding – Services bind to a port to watch for incoming requests and send
 requests to the port of another service. The pipe in between is just a dumb
 network protocol such as HTTP.
@@ -161,6 +164,7 @@ features using various deployment techniques. Each release has a specific ID
 and can be used to gain design efficiency and user feedback.
 
 Design patterns:
+
 - Sidecar extends and enhances the main service.
 - Ambassador creates helper services that send network requests on behalf of a
 - nsumer service or application.
@@ -177,6 +181,6 @@ communications between microservices, using a proxy.
 
 ## References
 
-- https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf
-- https://docs.aws.amazon.com/pdfs/whitepapers/latest/microservices-on-aws/microservices-on-aws.pdf
-- https://medium.com/capital-one-tech/10-microservices-design-patterns-for-better-architecture-befa810ca44e
+- <https://d1.awsstatic.com/whitepapers/DevOps/running-containerized-microservices-on-aws.pdf>
+- <https://docs.aws.amazon.com/pdfs/whitepapers/latest/microservices-on-aws/microservices-on-aws.pdf>
+- <https://medium.com/capital-one-tech/10-microservices-design-patterns-for-better-architecture-befa810ca44e>

@@ -1,5 +1,23 @@
 # Pydantic
 
+## Settings Management
+
+<https://medium.com/ordina-data/using-pydantic-models-for-settings-management-73408ad2ca5a>
+
+Manage app configurations sourced from environment variables, config files, and more.
+
+```python
+from pydantic import BaseSettings
+
+class AppConfig(BaseSettings):
+
+    app_name: str = "MyApp"
+    debug: bool = False
+
+    class Config:
+        env_file = ".env"
+```
+
 ## Field Customization
 
 ```python
@@ -93,22 +111,6 @@ T = TypeVar('T')
 
 class Wrapper(GenericModel, Generic[T]):
     content: T
-```
-
-## Settings Management
-
-Manage app configurations sourced from environment variables, config files, and more.
-
-```python
-from pydantic import BaseSettings
-
-class AppConfig(BaseSettings):
-
-    app_name: str = "MyApp"
-    debug: bool = False
-
-    class Config:
-        env_file = ".env"
 ```
 
 ## JSON Serialization Customization

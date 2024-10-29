@@ -1,6 +1,7 @@
 # Python
 
-<https://roadmap.sh/python>
+- <https://roadmap.sh/python>
+- <https://hlop3z.github.io/interviews-python/>
 
 ## Contents
 
@@ -35,6 +36,8 @@ If the implementation is easy to explain, it may be a good idea.
 Namespaces are one honking great idea -- let's do more of those!  
 
 ## Garbage Collector
+
+- <https://medium.com/@sylvain.tiset/demystifying-garbage-collection-algorithms-8f1ef1061207>
 
 > Everything in Python is an object
 

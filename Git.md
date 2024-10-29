@@ -100,6 +100,14 @@ git submodule update --init --recursive
 git remote prune origin && git branch -vv | grep ': gone]'|  grep -v "\*" | awk '{ print $1; }' | xargs -r git branch -d
 ```
 
+## Delete merged branches
+
+Powershell
+
+```shell
+git branch -d (git branch).split()
+```
+
 ## File permissions when pushing on Windows
 
 ```shell
