@@ -4,6 +4,61 @@
 - <https://typing.readthedocs.io/en/latest/spec/>
 - <https://medium.com/@ramanbazhanau/advanced-type-annotations-in-python-part-1-3c9a592e394>
 
+## TypedDict
+
+```python
+from Typing import TypedDict, Unpack
+
+class Employee(TypedDict, total=False): # total specifies that not all keys are required
+    name: str
+    id: int
+
+employee1: Employee = {"id": 123}
+
+def retrieve(**kwargs: Unpack[Employee]) -> None: ...
+```
+
+## Generic
+
+```python
+from typing import Generic, TypeVar
+
+T = TypeVar('T')
+
+class Box(Generic[T]):
+    def __init__(self, item: T):
+        self.item = item
+
+class Container(Generic[T]):
+    def __init__(self, value: T):
+        self.value = value
+
+box_int = Box(5)  # box_int: Box[int], class Box(item: int)
+box_str = Box("Hello")  # box_str: Box[str], class Box(item: str)
+
+# This allows for type-safe operations on the container
+int_container = Container[int](5)
+str_container = Container[str]("Hello")
+```
+
+## Protocol
+
+```python
+from typing import Protocol
+
+class SupportsClose(Protocol):
+    def close(self) -> None:
+        pass
+
+class FileResource:
+    def close(self) -> None:
+        print("File closed")
+
+# This is valid, even though FileResource doesn't inherit from SupportsClose
+def close_resource(resource: SupportsClose) -> None:
+    resource.close()
+```
+
 ## Annotated
 
 ```python
@@ -112,61 +167,6 @@ def mimic(animal_class: Type[Animal]):  # animal_class is a class, not an instan
     animal_class.make_sound()
 
 mimic(Animal)
-```
-
-## TypedDict
-
-```python
-from Typing import TypedDict, Unpack
-
-class Employee(TypedDict, total=False): # total specifies that not all keys are required
-    name: str
-    id: int
-
-employee1: Employee = {"id": 123}
-
-def retrieve(**kwargs: Unpack[Employee]) -> None: ...
-```
-
-## Generic
-
-```python
-from typing import Generic, TypeVar
-
-T = TypeVar('T')
-
-class Box(Generic[T]):
-    def __init__(self, item: T):
-        self.item = item
-
-class Container(Generic[T]):
-    def __init__(self, value: T):
-        self.value = value
-
-box_int = Box(5)  # box_int: Box[int], class Box(item: int)
-box_str = Box("Hello")  # box_str: Box[str], class Box(item: str)
-
-# This allows for type-safe operations on the container
-int_container = Container[int](5)
-str_container = Container[str]("Hello")
-```
-
-## Protocol
-
-```python
-from typing import Protocol
-
-class SupportsClose(Protocol):
-    def close(self) -> None:
-        pass
-
-class FileResource:
-    def close(self) -> None:
-        print("File closed")
-
-# This is valid, even though FileResource doesn't inherit from SupportsClose
-def close_resource(resource: SupportsClose) -> None:
-    resource.close()
 ```
 
 ## ParamSpec
