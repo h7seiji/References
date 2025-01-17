@@ -134,3 +134,65 @@ g++ -c example.cpp -o example.o
 # Link object files together to create the executable
 g++ main.o example.o -o my_program
 ```
+
+## Macros
+
+Macros are preprocessing directives in C++ used by the preprocessor to perform text substitution.
+They are defined using the `#define` directive, followed by the macro name and the value to be substituted.
+
+Macros can be used to define constants, create function-like macros, or perform conditional compilation.
+
+### Constant Macros
+
+```cpp
+#define PI 3.14159
+```
+
+### Function-like Macros
+
+```cpp
+#define SQUARE(x) ((x) * (x))
+```
+
+### Conditional Compilation
+
+```cpp
+#define DEBUG_MODE
+
+#ifdef DEBUG_MODE
+  // Code to be compiled only in debug mode
+#else
+  // Code to be compiled only if DEBUG_MODE is not defined
+#endif
+```
+
+## Argument Dependent Lookup (ADL)
+
+Argument Dependent Lookup (ADL) or Koenig Lookup is a mechanism in C++ that allows the compiler to search for the appropriate function to call based on the types of arguments provided.
+It is particularly helpful when using overloaded functions or operators in a namespace.
+
+ADL allows the compiler to find functions in the same namespace as the arguments, even if the function is not declared at the point of use or within the namespace provided.
+This is especially useful when working with templates or generic programming.
+
+```cpp
+namespace MyNamespace {
+    class MyClass {
+    public:
+        int value;
+    };
+
+    std::ostream& operator<<(std::ostream& os, const MyClass& obj) {
+        os << "MyClass: " << obj.value;
+        return os;
+    }
+}
+
+int main() {
+    MyNamespace::MyClass obj;
+    obj.value = 42;
+    using std::cout; // Required to use 'cout' without fully qualifying it.
+    cout << obj << std::endl; // ADL is used to find the correct overloaded 'operator<<'.
+}
+```
+
+In this example, when you call `cout << obj;` in `main()`, ADL is used to find the correct `operator<<()` in the `MyNamespace` namespace because the argument `obj` is of type `MyNamespace::MyClass`.
