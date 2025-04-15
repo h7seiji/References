@@ -1,5 +1,40 @@
 # Databases
 
+## CAP Theorem
+
+The CAP theorem states that in distributed systems, you can have at most two out of three desirable properties simultaneously: Consistency, Availability, and Partition tolerance.
+This fundamental principle helps system designers understand the trade-offs they must make when building distributed databases and applications.
+
+### Consistency
+
+- Ensures all clients see the same data regardless of which node they connect to
+- Requires instant replication across all nodes for successful writes
+- Example: Banking systems requiring exact account balances
+
+### Availability
+
+- Guarantees valid responses to client requests, even when nodes fail
+- Every working node must return a response without exception
+- Example: E-commerce platforms needing 24/7 operation
+
+### Partition tolerance
+
+- Ensures system functionality despite network communication breakdowns
+- Required for distributed systems due to inevitable network failures
+- Allows continued operation even when nodes lose contact
+
+### CP Systems (Consistency + Partition tolerance)
+
+- Example: MongoDB
+- Prioritizes consistency over availability during partitions
+- May temporarily reject writes to maintain consistency
+
+### AP Systems (Availability + Partition tolerance)
+
+- Example: Cassandra
+- Maintains availability but may sacrifice consistency
+- Provides eventual consistency through reconciliation mechanisms
+
 ## ACID
 
 - Atomicity: All or nothing
