@@ -7,6 +7,10 @@
 - Official Microsoft package manager
 - Search packages: <https://winget.run/>
 
+```shell
+winget upgrade --all
+```
+
 ### Scoop
 
 <https://scoop.sh/>

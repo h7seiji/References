@@ -8,6 +8,8 @@
 
 `go run .`
 
+`go build .`
+
 `go mod tidy`
 
 `go mod edit -replace example.com/greetings=../greetings`
