@@ -1,5 +1,11 @@
 # MongoDB
 
+## Key Features
+
+- Document data model (NoSQL)
+  - Data is written in large nested documents, better data locality (if you choose to organize your data in a way that takes advantage of this) - but denormalized
+- B-Trees and Transactions supported
+
 ## Methods
 
 - Collection.distinct(key, filter)
@@ -37,5 +43,4 @@ db.media.find({ "Tracklist.Title": "In Bloom" })
 
 ## Aggregations
 
-https://www.practical-mongodb-aggregations.com/
-
+<https://www.practical-mongodb-aggregations.com/>

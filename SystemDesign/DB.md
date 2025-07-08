@@ -76,3 +76,89 @@ Pro: Faster reads, know exactly where key is located
 Con: Slow writes to disk instead of memory
 
 ## Replication
+
+The process of having multiple copies of data in order to make sure that if a database goes down the data isn't lost
+
+- Single leader replication
+  - All writes go to one database, reads come from any database
+  - Useful to ensure that there are no data conflicts, all writes go to one node
+- Multi leader replication
+  - Writes can go to a small subset of leader databases, reads can come from any database
+  - Balanced approach between write throughput and write conflicts
+- Leaderless replication
+  - Writes can go to all databases, reads come from all databases
+  - Useful for increasing write throughput at the cost of potential write conflicts
+
+## Choosing a Database
+
+### SQL
+
+- Relational/Normalized data - changes to one table may require changes to others
+  - E.g. adding an author and their books to different tables on different nodes
+  - May require two phase commit (Expensive)
+- Have transactional (ACID guarantees)
+  - Excessively slow if you don't need them (due to two phase locking)
+- Typically use B-trees
+  - Better for reads than writes in theory
+
+Conclusion : When correctness is of more importance than speed - E.g. banking applications, job scheduling
+
+### MongoDB
+
+- Document data model (NoSQL)
+  - Data is written in large nested documents, better data locality (if you choose to organize your data in a way that takes advantage of this) - but denormalized
+- B-Trees and Transactions supported
+
+Conclusion: Good if you want SQL like guarantees on data with more flexibility via the document model
+
+### Cassandra
+
+- Wide column data store (NoSQL), has a shard key and a sort key
+  - Allow for flexible schemas, ease of partitioning
+- Multileader/Leaderless replication (configurable)
+  - Super fast writes, albeit uses last write wins for conflict resolution
+  - May clobber existing writes if they were not the winner of LWW
+- Index based off of LSM tree and SSTables
+  - Fast writes
+
+Conclusion: Great for applications with high write volume, consistency is not as important, all writes and reads go to the same shard (no transactions) - E.g. chat application
+
+### HBase
+
+- Wide column data store (NoSQL), has a shard key and a sort key
+  - Allow for flexible schemas, ease of partitioning
+- Single leader replication
+  - Built on top of hadoop, ensures data consistency and durability
+  - Slower than leaderless replication
+- Index based off of LSM tree and SSTables
+  - Fast writes
+- Column oriented storage
+  - Column compression and increased data locality within columns of data
+
+Conclusion: Great for applications that need fast column reads - E.g. Multiple thumbnails of a youtube video, sensor readings
+
+### Neo4j/AWS Neptune
+
+- Graph database
+  - As opposed to just using a SQL database under the hood with relations to represent nodes and edges, actually has pointers from one address on disk to another for quicker lookups
+  - The former is bad because reads become slower proportional to the size of the index (O log n to binary search), but using direct pointer is O(1)
+
+Conclusion: Only useful for data naturally represented in graph formats - E.g. Map data, friends on social media
+
+### TimeScaleDB/Apache Druid
+
+- Time series database
+  - Use LSM trees for fast ingestion, but break table into many small indexes by both ingestion source and timestamp
+  - Allows for placing the whole index in CPU cache for better performance, quick deletes of whole index when no longer relevant (as opposed to typical tombstone method)
+
+Conclusion: Very niche but serve their purpose very well - E.g. great for sensor data, metrics, logs, where you want to read by the ingestor and range of timestamp
+
+### VoltDB
+
+- SQL but completely in memory, single threaded execution for no locking
+- Expensive and only allows for small datasets
+
+### Google Spanner
+
+- SQL, uses GPS clocks in data center to avoid locking by using timestamps to determine order of writes
+- Very expensive
