@@ -1,16 +1,46 @@
 # Variables
 
-In Go, variables are explicitly declared and used by the compiler to e.g. check type-correctness of function calls.
+The var statement declares a list of variables; as in function argument lists, the type is last.
 
-var declares 1 or more variables.
+A var statement can be at package or function level. We see both in this example.
 
-You can declare multiple variables at once.
+```go
+package main
 
-Go will infer the type of initialized variables.
+import "fmt"
 
-Variables declared without a corresponding initialization are zero-valued. For example, the zero value for an int is 0.
+var c, python, java bool
 
-The := syntax is shorthand for declaring and initializing a variable, e.g. for var f string = "apple" in this case. This syntax is only available inside functions.
+func main() {
+ var i int
+ fmt.Println(i, c, python, java)
+}
+```
+
+## Variables with initializers
+
+A var declaration can include initializers, one per variable.
+
+If an initializer is present, the type can be omitted; the variable will take the type of the initializer.
+
+```go
+package main
+
+import "fmt"
+
+var i, j int = 1, 2
+
+func main() {
+ var c, python, java = true, false, "no!"
+ fmt.Println(i, j, c, python, java)
+}
+```
+
+## Short variable declarations
+
+Inside a function, the := short assignment statement can be used in place of a var declaration with implicit type.
+
+Outside a function, every statement begins with a keyword (var, func, and so on) and so the := construct is not available.
 
 ```go
 package main
@@ -18,30 +48,10 @@ package main
 import "fmt"
 
 func main() {
+ var i, j int = 1, 2
+ k := 3
+ c, python, java := true, false, "no!"
 
-    var a = "initial"
-    fmt.Println(a)
-
-    var b, c int = 1, 2
-    fmt.Println(b, c)
-
-    var d = true
-    fmt.Println(d)
-
-    var e int
-    fmt.Println(e)
-
-    f := "apple"
-    fmt.Println(f)
+ fmt.Println(i, j, k, c, python, java)
 }
 ```
-
-## Difference Between var and :=
-
-- var
-  - Can be used inside and outside of functions
-  - Variable declaration and value assignment can be done separately
-
-- :=
-  - Can only be used inside functions
-  - Variable declaration and value assignment cannot be done separately (must be done in the same line)
