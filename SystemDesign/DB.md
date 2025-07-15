@@ -109,7 +109,7 @@ Conclusion : When correctness is of more importance than speed - E.g. banking ap
   - Data is written in large nested documents, better data locality (if you choose to organize your data in a way that takes advantage of this) - but denormalized
 - B-Trees and Transactions supported
 
-Conclusion: Good if you want SQL like guarantees on data with more flexibility via the document model
+Conclusion: Good if you want SQL like guarantees on data with more flexibility via the document model - E.g. applications in development that might require constant changes to the data models
 
 ### Cassandra
 
