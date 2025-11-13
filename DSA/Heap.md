@@ -16,4 +16,34 @@
 
 ## Techniques
 
-- Mention of k
+- Mention of top or lowest k
+
+```python
+import heapq
+
+class Solution:
+    def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        dic = {}
+        for num in nums:
+            dic[num] = dic.get(num, 0) + 1
+        heap = [(-value, key) for key, value in dic.items()]
+        heapq.heapify(heap)
+        return [heapq.heappop(heap)[1] for _ in range(k)]
+```
+
+```python
+import heapq
+
+def three_largest(nums):
+    # create a min-heap with the first 3 elements
+    heap = nums[:3]
+    heapq.heapify(heap)
+    
+    # iterate through the remaining elements
+    for num in nums[3:]:
+        if num > heap[0]:
+            heapq.heappop(heap)
+            heapq.heappush(heap, num)
+    
+    return heap
+```

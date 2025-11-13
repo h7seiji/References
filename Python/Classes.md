@@ -3,7 +3,8 @@
 
 ## @staticmethod
 
-The @staticmethod decorator allows you to define static methods within a class. These methods don’t have access to the instance or class itself but can be called without instantiating an object.
+The `@staticmethod` decorator allows you to define static methods within a class.
+These methods don’t have access to the instance or class itself but can be called without instantiating an object.
 
 ```python
 class MathUtils:
@@ -16,7 +17,7 @@ print(MathUtils.square(3))  # Output: 9
 
 ## @classmethod
 
-The @classmethod decorator defines methods that receive the class itself as the first argument instead of the instance.
+The `@classmethod` decorator defines methods that receive the class itself as the first argument instead of the instance.
 
 ```python
 class MathUtils:
@@ -25,6 +26,41 @@ class MathUtils:
         return x ** 3
 
 print(MathUtils.cube(3))  # Output: 27
+```
+
+## @dataclass
+
+It provides a concise way to create classes primarily used for storing and managing data.
+@dataclass automatically generates special methods such as __init__, __repr__, __eq__, and more based on the class attributes.
+This reduces the need for writing repetitive and boilerplate code, making your codebase more readable and maintainable.
+
+```python
+@dataclass(frozen=True)
+class ImmutablePoint:
+    x: int
+    y: int
+```
+
+## @property
+
+Python’s @property decorator lets you turn a method into an attribute-like access.
+This way, users can write `my_car.speed` instead of `my_car.get_speed()`.
+
+```python
+class Car(Vehicle):
+    def __init__(self):
+        super().__init__()
+        self.__speed = 0
+
+    # getter
+    @property
+    def speed(self):
+        return self.__speed
+
+    # setter
+    @speed.setter
+    def speed(self, value):
+        self.__speed = value
 ```
 
 ## Magic or Dunder Methods
@@ -79,16 +115,3 @@ class Employee:
 ### `__del__()`
 
 Destructor method.
-
-## @dataclass
-
-It provides a concise way to create classes primarily used for storing and managing data.
-@dataclass automatically generates special methods such as __init__, __repr__, __eq__, and more based on the class attributes.
-This reduces the need for writing repetitive and boilerplate code, making your codebase more readable and maintainable.
-
-```python
-@dataclass(frozen=True)
-class ImmutablePoint:
-    x: int
-    y: int
-```

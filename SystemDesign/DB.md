@@ -91,6 +91,22 @@ The process of having multiple copies of data in order to make sure that if a da
 
 ## Choosing a Database
 
+### SQL vs NoSQL
+
+#### When to Choose SQL?
+
+- Data consistency and transactional integrity are critical (e.g., banking systems, customer relationship management).
+- The application needs a well-defined schema and structured data.
+- Complex queries and relational data are involved.
+- Applications requiring multi-row transactions (such as inventory management) benefit from SQL’s robust features.
+
+#### When to Choose NoSQL?
+
+- You need to handle large, unstructured data sets, like social media data or logs.
+- The application requires horizontal scalability to accommodate high traffic and big data.
+- There is a need for real-time data processing and flexible data models (e.g., a content management system).
+- You are dealing with applications requiring frequent changes in data structures.
+
 ### SQL
 
 - Relational/Normalized data - changes to one table may require changes to others

@@ -1,6 +1,6 @@
 # Coding Interview Tips
 
-https://www.techinterviewhandbook.org/coding-interview-prep/
+<https://www.techinterviewhandbook.org/coding-interview-prep/>
 
 ## Criteria
 
@@ -83,25 +83,95 @@ https://www.techinterviewhandbook.org/coding-interview-prep/
 
 ## Coding Patterns
 
-https://levelup.gitconnected.com/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb
+<https://levelup.gitconnected.com/dont-just-leetcode-follow-the-coding-patterns-instead-4beb6a197fdb>
 
-- Sliding Window: When we need to handle the input data in a specific window size
-- Islands (Matrix Traversal): Describes all the efficient ways of traversing a matrix (or 2D array)
-- Two Pointers: Uses two pointers to iterate input data. Generally, both pointers move in the opposite direction at a constant interval
-- Fast & Slow Pointers: Uses two pointers that traverse the input data at different speeds
-- Merge Intervals: Used to deal with overlapping intervals
-- Cyclic Sort: Used to solve array problems where the input data lies within a fixed range
-- In-place Reversal of a LinkedList: Describes an efficient way to reverse the links between a set of nodes of a LinkedList. Often, the constraint is that we need to do this in-place
-- Tree Breadth-First Search: Used to solve problems involving traversing trees or graphs in a breadth-first search manner
-- Tree Depth First Search: Used to solve problems involving traversing trees or graphs in a depth-first search manner
-- Two Heaps: We are given a set of elements that can be divided into two parts. We are interested in knowing the smallest element in one part and the biggest element in the other part. This technique uses a Min-Heap to find the smallest element and a Max-Heap to find the biggest element
-- Subsets: Used when the problem asks to deal with permutations or combinations of a set of elements
-- Modified Binary Search: Used to search a sorted set of elements efficiently
-- Bitwise XOR: Uses the XOR operator to manipulate bits to solve problems
-- Top ‘K’ Elements: Used to find top/smallest/frequently occurring 'K' elements in a set
-- K-way Merge: Helps us solve problems that involve a list of sorted arrays
-- Topological Sort: Used to find a linear ordering of elements that have dependencies on each other
-- 0/1 Knapsack: Used to solve optimization problems. Use this technique to select elements that give maximum profit from a given set with a limitation on capacity and that each element can only be picked once
-- Fibonacci Numbers: Used to solve problems that follow the Fibonacci numbers sequence
-- Palindromic Subsequence: Used to solve optimization problems related to palindromic sequences or strings
-- Longest Common Substring: Used to find the optimal part of a string/sequence or set of strings/sequences
+- Sliding Window
+  - Processes input data within a fixed or dynamic window.
+  - Makes it easy to solve problems related to subarrays or substrings.
+  - Avoids brute force by moving window efficiently.
+
+- Islands (Matrix Traversal)
+  - Traverses 2D grids or matrices efficiently.
+  - Uses DFS or BFS to explore connected nodes.
+  - Common for problems involving islands, clusters or paths.
+
+- Two Pointers
+  - Move two pointers through arrays, strings or linked lists.
+  - Solves problems like finding pairs, merging or detecting duplicates.
+
+- Fast & Slow Pointers
+  - Also known as the Hare & Tortoise Algorithm.
+  - Uses two pointers moving at different speeds to detect cycles.
+  - Common for linked lists and circular arrays.
+
+- Merge Intervals
+  - Handles overlapping intervals.
+  - Used for scheduling, reservations, and range merging.
+  - Sorting intervals first usually simplifies the problem.
+
+- Cyclic Sort
+  - Sorts elements in place when they fall in a fixed range.
+  - Finds missing or duplicate numbers.
+
+- In-Place Reversal of a LinkedList
+  - Reverses a linked list without extra memory.
+  - Useful for modifying linked list structure in-place.
+
+- Breadth-First Search (BFS)
+  - Traverses trees or graphs level by level.
+  - Finds shortest paths or explores neighbors first.
+  - Implemented using a queue.
+
+- Depth-First Search (DFS)
+  - Traverses deep into trees or graphs before backtracking.
+  - Used for recursion-based traversal and path-related problems.
+  - Implemented using stack or recursion.
+
+- Two Heaps
+  - Splits data into two halves: small vs large elements.
+  - Uses Min-Heap and Max-Heap for quick median or priority access.
+  - Common used in streaming data or priority-based queries.
+
+- Subsets
+  - Generates all combinations or permutations.
+  - Uses backtracking or BFS to generate all possible subsets.
+  - Useful for problems involving decision trees.
+
+- Modified Binary Search
+  - Searches efficiently in searching in sorted or rotated datasets.
+  - Solves problems like peak elements, rotated elements or range queries.
+  - Reduces complexity to O(log N).
+
+- Bitwise XOR
+  - Uses XOR operator for bit manipulation problems.
+  - Finds missing or unique elements efficiently.
+  - Works without extra space or sorting.
+
+- Top ‘K’ Elements
+  - Useful for finding the largest, smallest, or most frequent elements.
+  - You should use Heaps (Priority Queues) for efficient selection.
+  - Great for recommendation systems and ranking problems.
+
+- K-way Merge
+  - Merges multiple sorted arrays efficiently.
+  - Uses Heaps or Divide & Conquer for optimal merging.
+  - Useful for streaming data and external sorting.
+
+- Topological Sort
+  - Solves problems involving dependencies between elements.
+  - Used for scheduling tasks or understanding dependency graphs.
+  - Often implemented using BFS or DFS.
+
+- 0/1 Knapsack
+  - Used for optimization problems with capacity constraints.
+  - Helps maximize profit while selecting items under limits.
+  - A fundamental Dynamic Programming approach.
+
+- Fibonacci Numbers
+  - Used for problems following a sequential dependency.
+  - Applies memoisation or dynamic programming for optimization.
+  - Helps solve staircase problems, coin changes, and recursive dependencies.
+
+- Palindromic Subsequence
+
+- Longest Common Substring

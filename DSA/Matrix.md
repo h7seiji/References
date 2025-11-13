@@ -18,19 +18,19 @@ Questions involving matrices are usually related to dynamic programming or graph
 
 - Copy Matrix:
 
-```
+```python
 copied_matrix = [row[:] for row in matrix]
 ```
 
 - Transpose Matrix:
 
-```
+```python
 transposed_matrix = zip(*matrix)
 ```
 
 - Empty Matrix:
 
-```
+```python
 # Assumes that the matrix is non-empty
 zero_matrix = [[0 for _ in range(len(matrix[0]))] for _ in range(len(matrix))]
 ```

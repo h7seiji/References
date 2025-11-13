@@ -1,12 +1,14 @@
 # System Design
 
-- https://github.com/donnemartin/system-design-primer
-- https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview
-- https://www.hiredintech.com/system-design/
-- https://roadmap.sh/system-design
-- https://github.com/checkcheckzz/system-design-interview
+- <https://github.com/donnemartin/system-design-primer>
+- <https://tianpan.co/notes/2016-02-13-crack-the-system-design-interview>
+- <https://www.hiredintech.com/system-design/>
+- <https://roadmap.sh/system-design>
+- <https://github.com/checkcheckzz/system-design-interview>
+- <https://www.youtube.com/@hello_interview/videos>
+- <https://www.youtube.com/watch?v=iYIjJ7utdDI>
 
-- Cheatsheet https://gist.github.com/vasanthk/485d1c25737e8e72759f
+- Cheatsheet <https://gist.github.com/vasanthk/485d1c25737e8e72759f>
 
 ## Recipe
 
@@ -45,7 +47,7 @@
   - NS record (name server) - Specifies the DNS servers for your domain/subdomain.
   - MX record (mail exchange) - Specifies the mail servers for accepting messages.
   - A record (address) - Points a name to an IP address.
-  - CNAME (canonical) - Points a name to another name or CNAME (example.com to www.example.com) or to an A record.
+  - CNAME (canonical) - Points a name to another name or CNAME (example.com to <www.example.com>) or to an A record.
 
 - CDN
 

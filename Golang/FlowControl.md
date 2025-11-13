@@ -33,6 +33,13 @@ func main() {
  }
  fmt.Println(sum)
 }
+
+func main() {
+    numbers := []int{10, 20, 30, 40, 50}
+    for i, v := range numbers {
+        fmt.Printf("Index: %d, Value: %d\n", i, v)
+    }
+}
 ```
 
 ## If

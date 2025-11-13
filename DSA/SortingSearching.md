@@ -24,7 +24,7 @@
 - Sequence with two elements
 - Sequence containing duplicate elements.
 
-# Techniques
+## Techniques
 
 - Sorted inputs
   - When a given sequence is in a sorted order (be it ascending or descending), using binary search should be one of the first things that come to your mind.
